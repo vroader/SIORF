@@ -7,6 +7,6 @@ A extrutura de dados hoje em funcionamento conta possui um banco com todas para 
 
 <h1> O que se pretende<br/>
 
-    Diante das limitações do Access o primeiro objetivo do projeto é transpor o banco para um Sistema de Gereanciamento de Banco de Dados (SGBD) profissional, sobretudo que possa fornecer acesso remoto, mesmo fora da rede institucional, possibilitando assim que o banco seja utilizado por todos os membros do Sistema de Orçamento e Finança, mesmo quando trabalhando em casa, em suas maquinas pessoais.<br/>
+<blink> Diante das limitações do Access o primeiro objetivo do projeto é transpor o banco para um Sistema de Gereanciamento de Banco de Dados (SGBD) profissional, sobretudo que possa fornecer acesso remoto, mesmo fora da rede institucional, possibilitando assim que o banco seja utilizado por todos os membros do Sistema de Orçamento e Finança, mesmo quando trabalhando em casa, em suas maquinas pessoais.<br/>
     O SGBD escolhido a priori é o Mysql, tendo em vista tratar-se de ferramente gratuíta e já utilizada pela Corporação em outros sistemas informatizados.<br/>
-    O manuseio do Banco de Dados em Access também tem revelado diversas FALAR SOBRE A NECESSIDADE DE SUBDIVIDIR O BANCO DE DADOS CONFORME OS PROCESSOS DE CADASTRO DE DEMANDAS, PLANEJAMENTO E ACOMPANHAMENTO.
+    O manuseio do Banco de Dados em Access também tem revelado diversas FALAR SOBRE A NECESSIDADE DE SUBDIVIDIR O BANCO DE DADOS CONFORME OS PROCESSOS DE CADASTRO DE DEMANDAS, PLANEJAMENTO E ACOMPANHAMENTO.<blink>
