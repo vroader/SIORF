@@ -1,0 +1,674 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+-- -----------------------------------------------------
+-- Schema siorfc68_CadastroDemandas
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema siorfc68_CadastroDemandas
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `siorfc68_CadastroDemandas` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
+-- -----------------------------------------------------
+-- Schema siorfc68_OrcamentoFCDF
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema siorfc68_OrcamentoFCDF
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `siorfc68_OrcamentoFCDF` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ;
+-- -----------------------------------------------------
+-- Schema siorfc68_OrcamentoGDF
+-- -----------------------------------------------------
+USE `siorfc68_CadastroDemandas` ;
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_CoordenadoresSetoriais`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_CoordenadoresSetoriais` (
+  `cso_Codigo` VARCHAR(8) NOT NULL,
+  `cso_Nome` VARCHAR(45) NOT NULL,
+  `cso_AreaTematica` VARCHAR(45) NULL DEFAULT NULL,
+  `cso_DataInclusao` DATE NULL DEFAULT NULL,
+  `cso_status` VARCHAR(45) CHARACTER SET 'utf8' COLLATE 'utf8_bin' NULL DEFAULT NULL,
+  `cso_InstrumentoLegal` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`cso_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_Disponibilidade`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_Disponibilidade` (
+  `id_Disponibilidade` INT(11) NOT NULL AUTO_INCREMENT,
+  `dsp_Status` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`id_Disponibilidade`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 3
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_EspecieDisponibilidade`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_EspecieDisponibilidade` (
+  `Id_EspecieDisponibilidade` INT(11) NOT NULL AUTO_INCREMENT,
+  `esd_Disponibilidade` INT(11) NOT NULL,
+  `esd_Discriminacao` VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id_EspecieDisponibilidade`),
+  INDEX `esd_Disponibilidade_id_Disponibilidade` (`esd_Disponibilidade` ASC) VISIBLE,
+  CONSTRAINT `esd_Disponibilidade_id_Disponibilidade`
+    FOREIGN KEY (`esd_Disponibilidade`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_Disponibilidade` (`id_Disponibilidade`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+AUTO_INCREMENT = 6
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_FCDFCategoriaEconomica`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_FCDFCategoriaEconomica` (
+  `cfc_Codigo` VARCHAR(3) NOT NULL,
+  `cfc_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`cfc_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_FCDFElementoDespesa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_FCDFElementoDespesa` (
+  `efc_Codigo` VARCHAR(3) NOT NULL,
+  `efc_Descricao` VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (`efc_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_FCDFGrupoDespesa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_FCDFGrupoDespesa` (
+  `gfc_Codigo` VARCHAR(3) NOT NULL,
+  `gfc_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`gfc_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_FCDFModalidadeAplicacao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_FCDFModalidadeAplicacao` (
+  `mfc_Codigo` VARCHAR(3) NOT NULL,
+  `mfc_Descricao` VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (`mfc_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_FCDFNaturezaDespesaDetalhada`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_FCDFNaturezaDespesaDetalhada` (
+  `nfc_Codigo` VARCHAR(8) NOT NULL,
+  `nfc_Descricao` VARCHAR(255) NULL DEFAULT NULL,
+  `nfc_CategoriaEconomica` VARCHAR(3) NULL DEFAULT NULL,
+  `nfc_GrupoDespesa` VARCHAR(3) NULL DEFAULT NULL,
+  `nfc_ModalidadeAplicacao` VARCHAR(3) NULL DEFAULT NULL,
+  `nfc_ElementoDespesa` VARCHAR(3) NULL DEFAULT NULL,
+  PRIMARY KEY (`nfc_Codigo`),
+  INDEX `nfc_CategoriaEconomica_cfc_Codigo` (`nfc_CategoriaEconomica` ASC) VISIBLE,
+  INDEX `nfc_GrupoDespesa_gfc_Codigo` (`nfc_GrupoDespesa` ASC) VISIBLE,
+  INDEX `nfc_ModalidadeAplicacao_mfc_Codigo` (`nfc_ModalidadeAplicacao` ASC) VISIBLE,
+  INDEX `nfc_ElementoDespesa_efc_Codigo` (`nfc_ElementoDespesa` ASC) VISIBLE,
+  CONSTRAINT `nfc_CategoriaEconomica_cfc_Codigo`
+    FOREIGN KEY (`nfc_CategoriaEconomica`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_FCDFCategoriaEconomica` (`cfc_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `nfc_ElementoDespesa_efc_Codigo`
+    FOREIGN KEY (`nfc_ElementoDespesa`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_FCDFElementoDespesa` (`efc_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `nfc_GrupoDespesa_gfc_Codigo`
+    FOREIGN KEY (`nfc_GrupoDespesa`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_FCDFGrupoDespesa` (`gfc_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `nfc_ModalidadeAplicacao_mfc_Codigo`
+    FOREIGN KEY (`nfc_ModalidadeAplicacao`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_FCDFModalidadeAplicacao` (`mfc_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_GDFCategoriaEconomica`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_GDFCategoriaEconomica` (
+  `cdf_Codigo` VARCHAR(3) NOT NULL,
+  `cdf_Descricao` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`cdf_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_GDFElementoDespesa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_GDFElementoDespesa` (
+  `edf_Codigo` VARCHAR(2) NOT NULL,
+  `edf_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`edf_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_GDFGrupoDespesa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_GDFGrupoDespesa` (
+  `gdf_Codigo` VARCHAR(45) NOT NULL,
+  `gdf_Descricao` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`gdf_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_GDFModalidadeAplicacao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_GDFModalidadeAplicacao` (
+  `mdf_Codigo` VARCHAR(3) NOT NULL,
+  `mdf_Descricao` VARCHAR(2) NOT NULL,
+  PRIMARY KEY (`mdf_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_GDFNaturezaDespesaDetalhada`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_GDFNaturezaDespesaDetalhada` (
+  `ndf_Codigo` VARCHAR(8) NOT NULL,
+  `ndf_Descricao` VARCHAR(45) NOT NULL,
+  `ndf_CategoriaEconomica` VARCHAR(1) NOT NULL,
+  `ndf_GrupoDespesa` VARCHAR(1) NOT NULL,
+  `ndf_ModalidadeAplicacao` VARCHAR(2) NOT NULL,
+  `ndf_ElementoDespesa` VARCHAR(2) NOT NULL,
+  PRIMARY KEY (`ndf_Codigo`),
+  INDEX `ndf_CategoriaEconomica_cdf_Codigo` (`ndf_CategoriaEconomica` ASC) VISIBLE,
+  INDEX `ndf_GrupoDespesa_gdf_Codigo` (`ndf_GrupoDespesa` ASC) VISIBLE,
+  INDEX `ndf_ModalidadeAplicacao_mdf_Codigo` (`ndf_ModalidadeAplicacao` ASC) VISIBLE,
+  INDEX `ndf_ElementoDespesa_mdf_Codigo` (`ndf_ElementoDespesa` ASC) VISIBLE,
+  CONSTRAINT `ndf_CategoriaEconomica_cdf_Codigo`
+    FOREIGN KEY (`ndf_CategoriaEconomica`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_GDFCategoriaEconomica` (`cdf_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `ndf_ElementoDespesa_mdf_Codigo`
+    FOREIGN KEY (`ndf_ElementoDespesa`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_GDFElementoDespesa` (`edf_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `ndf_GrupoDespesa_gdf_Codigo`
+    FOREIGN KEY (`ndf_GrupoDespesa`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_GDFGrupoDespesa` (`gdf_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `ndf_ModalidadeAplicacao_mdf_Codigo`
+    FOREIGN KEY (`ndf_ModalidadeAplicacao`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_GDFModalidadeAplicacao` (`mdf_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_ProdutoUnidade`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_ProdutoUnidade` (
+  `pdu_Codigo` INT(11) NOT NULL,
+  `pdu_Especificacao` VARCHAR(45) NULL DEFAULT NULL,
+  `pdu_UnidadeMedida` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`pdu_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_CadastroDemandas`.`tbl_CadastroDemandas`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_CadastroDemandas`.`tbl_CadastroDemandas` (
+  `Id_CadastroDemandas` INT(4) NOT NULL,
+  `cad_CodigoDemanda` INT(8) NOT NULL,
+  `cad_CoordenadorSetorial` VARCHAR(8) NOT NULL,
+  `cad_Descricao` VARCHAR(50) NOT NULL,
+  `cad_FCDFDespesaDetalhada` VARCHAR(8) NOT NULL,
+  `cad_GDFDespesaDetalhada` VARCHAR(8) NOT NULL,
+  `cad_ProdutoUnidade` INT(4) NOT NULL,
+  `cad_Periodicidade` INT(1) NOT NULL,
+  `cad_EspecieDisponibilidade` INT(1) NOT NULL,
+  INDEX `cad_CoordenadorSetorial_cso_Codigo` (`cad_CoordenadorSetorial` ASC) VISIBLE,
+  INDEX `cad_EspecieDisponibilidade_id_EspecieDisponibilidade` (`cad_EspecieDisponibilidade` ASC) VISIBLE,
+  INDEX `cad_FCDFNaurezaDespesaDetalhada_nfc_Codigo` (`cad_FCDFDespesaDetalhada` ASC) VISIBLE,
+  INDEX `cad_NaturezaDespesaDetalhada_nfc_Codigo` (`cad_GDFDespesaDetalhada` ASC) VISIBLE,
+  INDEX `cad_ProdutoUnidade_pdu_Codigo` (`cad_ProdutoUnidade` ASC) VISIBLE,
+  CONSTRAINT `cad_CoordenadorSetorial_cso_Codigo`
+    FOREIGN KEY (`cad_CoordenadorSetorial`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_CoordenadoresSetoriais` (`cso_Codigo`),
+  CONSTRAINT `cad_EspecieDisponibilidade_id_EspecieDisponibilidade`
+    FOREIGN KEY (`cad_EspecieDisponibilidade`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_EspecieDisponibilidade` (`Id_EspecieDisponibilidade`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `cad_FCDFNaurezaDespesaDetalhada_nfc_Codigo`
+    FOREIGN KEY (`cad_FCDFDespesaDetalhada`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_FCDFNaturezaDespesaDetalhada` (`nfc_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `cad_NaturezaDespesaDetalhada_nfc_Codigo`
+    FOREIGN KEY (`cad_GDFDespesaDetalhada`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_GDFNaturezaDespesaDetalhada` (`ndf_Codigo`)
+    ON DELETE NO ACTION
+    ON UPDATE CASCADE,
+  CONSTRAINT `cad_ProdutoUnidade_pdu_Codigo`
+    FOREIGN KEY (`cad_ProdutoUnidade`)
+    REFERENCES `siorfc68_CadastroDemandas`.`tbl_ProdutoUnidade` (`pdu_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+USE `siorfc68_OrcamentoFCDF` ;
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Acao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Acao` (
+  `aca_Codigo` VARCHAR(4) NOT NULL,
+  `aca_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`aca_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_EspecieEmpenho`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_EspecieEmpenho` (
+  `eem_Codigo` INT(3) NOT NULL,
+  `eem_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`eem_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Empenho`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Empenho` (
+  `emp_Codigo` VARCHAR(23) NOT NULL,
+  `emp_EmpenhoReferencia` VARCHAR(23) NOT NULL,
+  `emp_Observacao` VARCHAR(200) NULL DEFAULT NULL,
+  `emp_Emissao` DATE NULL DEFAULT NULL,
+  `emp_Especie` INT(2) NULL DEFAULT NULL,
+  PRIMARY KEY (`emp_Codigo`),
+  INDEX `emp_Codigo_emp_EmpenhoReferencia` (`emp_EmpenhoReferencia` ASC) VISIBLE,
+  INDEX `emp_Especie_eem_Codigo` (`emp_Especie` ASC) VISIBLE,
+  CONSTRAINT `emp_Codigo_emp_EmpenhoReferencia`
+    FOREIGN KEY (`emp_EmpenhoReferencia`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Empenho` (`emp_Codigo`),
+  CONSTRAINT `emp_Especie_eem_Codigo`
+    FOREIGN KEY (`emp_Especie`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_EspecieEmpenho` (`eem_Codigo`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_EspecieRemanejamento`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_EspecieRemanejamento` (
+  `Id_EspecieRemanejamento` INT(1) NOT NULL AUTO_INCREMENT,
+  `erm_Descricao` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`Id_EspecieRemanejamento`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_EspecificacaoFonte`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_EspecificacaoFonte` (
+  `efo_Codigo` VARCHAR(2) NOT NULL,
+  `efo_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`efo_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Estrategia`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Estrategia` (
+  `id_Estrategia` INT(4) NOT NULL AUTO_INCREMENT,
+  `est_Codigo` VARCHAR(6) NOT NULL,
+  `est_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_Estrategia`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_GrupoFonte`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_GrupoFonte` (
+  `gfo_Codigo` VARCHAR(1) NOT NULL,
+  `gfo_Descricao` VARCHAR(45) NULL DEFAULT NULL,
+  PRIMARY KEY (`gfo_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Fonte`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Fonte` (
+  `fon_Codigo` VARCHAR(3) NOT NULL,
+  `fon_Descricao` VARCHAR(45) NOT NULL,
+  `fon_GrupoFonte` VARCHAR(1) NOT NULL,
+  `fon_EspecificacaoFonte` VARCHAR(2) NOT NULL,
+  PRIMARY KEY (`fon_Codigo`),
+  INDEX `fon_GrupoFonte` (`fon_GrupoFonte` ASC) VISIBLE,
+  CONSTRAINT `fon_GrupoFonte`
+    FOREIGN KEY (`fon_GrupoFonte`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_GrupoFonte` (`gfo_Codigo`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Funcao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Funcao` (
+  `fun_Codigo` VARCHAR(2) NOT NULL,
+  `fun_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`fun_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Objetivo`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Objetivo` (
+  `Id_Objetivo` INT(4) NOT NULL AUTO_INCREMENT,
+  `obj_Codigo` VARCHAR(3) NOT NULL,
+  `obj_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`Id_Objetivo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_IniciativasEstrategicas`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_IniciativasEstrategicas` (
+  `Id_IniciativaEstrategica` INT(4) NOT NULL AUTO_INCREMENT,
+  `ini_Codigo` VARCHAR(9) NOT NULL,
+  `ini_Descricao` VARCHAR(45) NOT NULL,
+  `ini_Estrategia` INT(4) NOT NULL,
+  `ini_ObjetivoEstrategico` INT(4) NOT NULL,
+  PRIMARY KEY (`Id_IniciativaEstrategica`),
+  INDEX `ini_Estrategia_Id_Estrategia` (`ini_Estrategia` ASC) VISIBLE,
+  INDEX `ini_ObjetivoEstrategico_Id_Objetivo` (`ini_ObjetivoEstrategico` ASC) VISIBLE,
+  CONSTRAINT `ini_Estrategia_Id_Estrategia`
+    FOREIGN KEY (`ini_Estrategia`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Estrategia` (`id_Estrategia`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `ini_ObjetivoEstrategico_Id_Objetivo`
+    FOREIGN KEY (`ini_ObjetivoEstrategico`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Objetivo` (`Id_Objetivo`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Item`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Item` (
+  `itm_Empenho` VARCHAR(23) NOT NULL,
+  `itm_Item` INT(2) NOT NULL,
+  `itm_Descricao` VARCHAR(45) NULL DEFAULT NULL,
+  `itm_NaturezaDespesaDetalhada` INT(8) NULL DEFAULT NULL,
+  `itm_MetaFísica` INT(10) NULL DEFAULT NULL,
+  `itm_Valor` DECIMAL(10,2) NULL DEFAULT NULL,
+  PRIMARY KEY (`itm_Empenho`, `itm_Item`),
+  CONSTRAINT `item_Empenho_emp_EmpenhoReferencia`
+    FOREIGN KEY (`itm_Empenho`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Empenho` (`emp_EmpenhoReferencia`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Programa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Programa` (
+  `pgr_Codigo` VARCHAR(4) NOT NULL,
+  `pgr_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`pgr_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_PropostaSetorial`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_PropostaSetorial` (
+  `Id_PropostaSetorial` INT(10) NOT NULL AUTO_INCREMENT,
+  `pps_Ano` YEAR(4) NOT NULL,
+  `pps_CadastroDemanda` INT(4) NOT NULL,
+  `pps_Justificativa` VARCHAR(100) NULL DEFAULT NULL,
+  `pps_IniciativaEstrategica` INT(4) NOT NULL,
+  `pps_MetaFisica` INT(10) NULL DEFAULT NULL,
+  `pps_Valor` DECIMAL(10,2) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id_PropostaSetorial`),
+  INDEX `pps_IniciativaEstrategica_Id_IniciativaEstrategica` (`pps_IniciativaEstrategica` ASC) VISIBLE,
+  CONSTRAINT `pps_IniciativaEstrategica_Id_IniciativaEstrategica`
+    FOREIGN KEY (`pps_IniciativaEstrategica`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_IniciativasEstrategicas` (`Id_IniciativaEstrategica`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Subfuncao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Subfuncao` (
+  `sub_Codigo` VARCHAR(3) NOT NULL,
+  `sub_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`sub_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Subtitulo`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Subtitulo` (
+  `sbt_Codigo` VARCHAR(4) NOT NULL,
+  `sbt_Descricao` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`sbt_Codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Proposta`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Proposta` (
+  `Id_Proposta` INT(10) NOT NULL AUTO_INCREMENT,
+  `pro_PropostaSetorial` INT(10) NOT NULL,
+  `pro_Fonte` VARCHAR(3) NULL DEFAULT '100',
+  `pro_Funcao` VARCHAR(2) NULL DEFAULT '28',
+  `pro_Subfuncao` VARCHAR(3) NULL DEFAULT '845',
+  `pro_Programa` VARCHAR(4) NULL DEFAULT '0903',
+  `pro_Acao` VARCHAR(4) NULL DEFAULT '00NR',
+  `pro_Subtitulo` VARCHAR(4) NOT NULL,
+  `pro_MetaFisica` INT(10) NULL DEFAULT NULL,
+  `pro_Valor` DECIMAL(10,2) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id_Proposta`),
+  INDEX `pro_PropostaSetorial_Id_PropostaSetorial` (`pro_PropostaSetorial` ASC) VISIBLE,
+  INDEX `pro_Fonte_fon_Codigo` (`pro_Fonte` ASC) VISIBLE,
+  INDEX `pro_Funcao_fun_Codigo` (`pro_Funcao` ASC) VISIBLE,
+  INDEX `pro_Subfuncao_sub_Codigo` (`pro_Subfuncao` ASC) VISIBLE,
+  INDEX `pro_Programa_pgr_Codigo` (`pro_Programa` ASC) VISIBLE,
+  INDEX `pro_Acao_aca_Codigo` (`pro_Acao` ASC) VISIBLE,
+  INDEX `pro_Subtitulo_sbt_Codigo` (`pro_Subtitulo` ASC) VISIBLE,
+  CONSTRAINT `pro_Acao_aca_Codigo`
+    FOREIGN KEY (`pro_Acao`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Acao` (`aca_Codigo`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_Fonte_fon_Codigo`
+    FOREIGN KEY (`pro_Fonte`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Fonte` (`fon_Codigo`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_Funcao_fun_Codigo`
+    FOREIGN KEY (`pro_Funcao`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Funcao` (`fun_Codigo`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_Programa_pgr_Codigo`
+    FOREIGN KEY (`pro_Programa`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Programa` (`pgr_Codigo`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_PropostaSetorial_Id_PropostaSetorial`
+    FOREIGN KEY (`pro_PropostaSetorial`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_PropostaSetorial` (`Id_PropostaSetorial`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_Subfuncao_sub_Codigo`
+    FOREIGN KEY (`pro_Subfuncao`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Subfuncao` (`sub_Codigo`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `pro_Subtitulo_sbt_Codigo`
+    FOREIGN KEY (`pro_Subtitulo`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Subtitulo` (`sbt_Codigo`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_PlanoInternoOrcamento`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_PlanoInternoOrcamento` (
+  `Id_PlanoInternoOrcamento` INT(10) NOT NULL AUTO_INCREMENT,
+  `pio_Proposta` INT(4) NOT NULL,
+  `pio_MetaFisica` INT(10) NULL DEFAULT NULL,
+  `pio_Valor` DECIMAL(10,2) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id_PlanoInternoOrcamento`),
+  INDEX `pio_Proposta_Id_Proposta` (`pio_Proposta` ASC) VISIBLE,
+  CONSTRAINT `pio_Proposta_Id_Proposta`
+    FOREIGN KEY (`pio_Proposta`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_Proposta` (`Id_Proposta`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Priorizacao`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Priorizacao` (
+  `Id_Priorizacao` INT(10) NOT NULL AUTO_INCREMENT,
+  `pri_Proposta` INT(10) NOT NULL,
+  `pri_Gravidade` INT(1) NULL DEFAULT NULL,
+  `pri_Urgencia` INT(1) NULL DEFAULT NULL,
+  `pri_Tendencia` INT(1) NULL DEFAULT NULL,
+  `pri_Status` TINYINT(1) NULL DEFAULT NULL,
+  PRIMARY KEY (`Id_Priorizacao`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+-- -----------------------------------------------------
+-- Table `siorfc68_OrcamentoFCDF`.`tbl_Remanejamento`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `siorfc68_OrcamentoFCDF`.`tbl_Remanejamento` (
+  `Id_Remanejamento` INT(10) NOT NULL AUTO_INCREMENT,
+  `rem_PlanoInternoOrcamento` INT(10) NOT NULL,
+  `rem_Data` DATE NULL DEFAULT NULL,
+  `rem_EspecieRemanejamento` INT(1) NOT NULL,
+  `rem_Valor` DECIMAL(10,2) NOT NULL,
+  `rem_Detalhes` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`Id_Remanejamento`),
+  INDEX `rem_PlanoInternoOrcamento_Id_PlanoInternoOrcamento` (`rem_PlanoInternoOrcamento` ASC) VISIBLE,
+  INDEX `rem_EspecieRemanejamento_Id_EspecieRemanejamento` (`rem_EspecieRemanejamento` ASC) VISIBLE,
+  CONSTRAINT `rem_EspecieRemanejamento_Id_EspecieRemanejamento`
+    FOREIGN KEY (`rem_EspecieRemanejamento`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_EspecieRemanejamento` (`Id_EspecieRemanejamento`)
+    ON UPDATE CASCADE,
+  CONSTRAINT `rem_PlanoInternoOrcamento_Id_PlanoInternoOrcamento`
+    FOREIGN KEY (`rem_PlanoInternoOrcamento`)
+    REFERENCES `siorfc68_OrcamentoFCDF`.`tbl_PlanoInternoOrcamento` (`Id_PlanoInternoOrcamento`)
+    ON UPDATE CASCADE)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
