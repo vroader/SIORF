@@ -1,0 +1,25 @@
+﻿CCS;Centro de Comunicação Social;Comunicação Social;;FALSO;Portaria PMDF nº 783/2012
+CI;Centro de Inteligência;Inteligência;;VERDADEIRO;Portaria PMDF nº 783/2012
+CMAN;Centro de Manutenção;Não está ativo.;;VERDADEIRO;Portaria PMDF nº 783/2012
+CME;Comando de Missões Especiais;Material e Equipamento Operacional Específico;;VERDADEIRO;Portaria PMDF nº 783/2012
+CMV;Centro de Medicina Veterinária;Não está ativo.;;VERDADEIRO;Portaria PMDF nº 783/2012
+CPP;Centro de Políticas Públicas;Projetos de interesse social e polícia Comiunitária;;VERDADEIRO;Portaria PMDF nº 783/2012
+DAO;Diretoria de Assistência Odontológica;Bens e Serviços na Área Odontológica;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+DCC;"Departamento de Correição e Controle
+Controle";Não está ativo;;FALSO;Portaria PMDF nº1061/2017
+DEC;Departamento de Educação e Cultura;Ensino e Pesquisa;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+DEEC;Diretoria de Especialização e Educação Continuada;Ensino e pesquisa;;VERDADEIRO;Portaria PMDF nº 783/2012
+DiCC;Diretoria de Controle Contábil;Material de consumo e Contratação de Serviços;;VERDADEIRO;Portaria PMDF nº 783/2012
+DINFRA;Diretoria de Infraestrutura;Obras e Manutenção Predial e Serviços Gerais;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+DIPC;Diretoria de Inativos, Pensionistas e Civis;Pessoal Inativo e Pensionistas;;VERDADEIRO;Portaria PMDF nº 783/2012
+DIPRO;Diretoria de Projetos;Obras, Manutenção Predial e Serviços Gerais;;VERDADEIRO;Portaria PMDF nº 783/2012
+DITEL;Diretoria de Telemática;Comunicação e Tecnologia da Informação;;FALSO;Portaria PMDF nº 783/2012
+DOP;Departamento Operacional;Material e Equipamento Operacional Especial;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+DPGC;Diretoria de Planejamento e Gestão de Contratos;Diretoria de Planejamento e Gestão de Contratos;;FALSO;Portaria PMDF nº 783/2012
+DPMT;Diretoria de Patrimônio, Manutenção e Transportes;Material Bélico e Motomecanização;;VERDADEIRO;Portaria PMDF nº 783/2012
+DPP;Diretoria de Pagamento de Pessoal;Pessoal Ativo, Inativo, Custeio da Folha e Benefícios;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+DPPHC;Diretoria de Pesquisa e Patrimônio Historico e Cultural;Ensino e Pesquisa;;VERDADEIRO;Portaria PMDF nº 1059/2017
+DPPP;Diretoria de Pagamento de Pessoal e Previdência;Pessoal Ativo;;VERDADEIRO;Portaria PMDF nº 783/2012
+DPTS;Diretoria de Patrimonio, Transporte e Surprimento;Materiais, Equipamentos e Serviços de Uso Comum;04/dez/20;FALSO;Portaria PMDF nº 1147/2020
+Não Definido;;Demanda sem área Temática Definido;;FALSO;
+Não Identificado;;Não é possível identificar a área temática por meio da nota de empenho.;;FALSO;
