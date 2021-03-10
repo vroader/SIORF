@@ -1,0 +1,171 @@
+﻿ID_CadastroDemanda;cad_CodigocadastroDemandas;CSO_Codigo;cad_Discriminacao;ndf_Codigo;ndg_CodigoNaturezaDespesaDetalhada;Periodicidade;cad_IdEspecieDisponibilidade;cad_Observacao;Cad_DataInclusao
+1;1;DPPP;Adicional por Tempo de Serviço de Pessoal Civil;31900109;-8;1;1;;21-mai-20
+2;10;DPPP;Gratificação de Representação Militar para Incorporada às Pensões;'-8;31900301;1;1;A classificação da Despesa adequada para Gratificação de Representação Militar para incorporada em Pensões é a 31900312 todavia o DGP faz o empenho na classificação indicada pelo GDF nos relatórios de folha.;21-mai-20
+3;100;DPGC;Serviço de manutenção preventivae corretiva de geradores;33903917;-8;1;1;;23-mai-20
+4;101;DPGC;Serviço de Fornecimento de Peças para Equipamentos de Radiologia odontológica;33903917;-8;1;1;"Discriminação alterada de ""Serviço de Fornecimento de Peças para Equipamentos de Radiologia"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+5;102;DPGC;Serviço de Manutenção de Instalações, Acessórios e Mobiliários das Unidades Odontológicas Móveis - UNAMPRO's;33903917;-8;1;1;"Discriminação alterada de ""Serviço de Manutenção de Instalações, Acessórios e Mobiliários das Unidades Odontológicas Móveis."" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+6;103;DPGC;Serviço de Fornecimento de Peças de Equipamentos Odontológicos.;33903917;-8;1;1;;23-mai-20
+7;104;DPGC;Serviço de manutenção de Equipamentos Médicos.;33903917;-8;1;1;;23-mai-20
+8;105;DPGC;Serviço de Manutenção de Equipamentos de Radiologia Odontológica;33903917;-8;1;1;Classificação da Despesa alterada de 33903937 (Juros) para 33903917 (Manutenação e conservação de maquinas e equipamento) conforme ofício 26 (40474330).;23-mai-20
+9;106;DPGC;Serviço de Alimentação / Nutrição com fornecimento de Refeição;33903941;-8;1;1;;23-mai-20
+10;107;DPGC;Implementação do Pronto Atendimento;33903950;-8;1;1;;23-mai-20
+11;108;DPGC;Serviço de medição da incidência de radiação emitida pelos aparelhos de RX - CMED;33903950;-8;1;1;"Discriminação alterada de ""Serviço de medicação da incidência de radiação emitida pelos aparelhos de RX"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+12;109;DPGC;Serviço Continuados de Apoio Técnico - Especializados - Enfermeiros, psicologos, etc;33903950;-8;1;1;"Discriminação alterada de ""Serviço Continuados de Apoio Técnico - Especializados."" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+13;11;DPPP;Pensões Militares;31900302;-8;1;1;;21-mai-20
+14;110;DPGC;Psicoterapia;33903950;-8;1;1;;23-mai-20
+15;111;DPGC;Hospital Geral;33903950;-8;1;1;;23-mai-20
+16;112;DPGC;Home Care;33903950;-8;1;1;;23-mai-20
+17;113;DPGC;Psiquiatria para adultos;33903950;-8;1;1;;23-mai-20
+18;114;DPGC;Assistência Clínica e Cirúrgica em Geral;33903950;-8;1;1;;23-mai-20
+19;115;DPGC;Hemodiálise, Quimioterapia e Oncologia;33903950;-8;1;1;;23-mai-20
+20;116;DPGC;Saúde Mental;33903950;-8;1;1;;23-mai-20
+21;117;DPGC;Imagens e Análises Clínicas;33903950;-8;1;1;;23-mai-20
+22;118;DPGC;Empresa de auditoria;33903950;-8;1;1;;23-mai-20
+23;119;DPGC;Serviço de Reposição de Peças da Medicina;33903950;-8;1;1;"Discriminação alterada de ""Serviço de Reposição de Peças"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+24;12;DPPP;Gratificação Natalícia de Pensionistas Militares;31900304;-8;1;1;;21-mai-20
+25;120;DPGC;Manutenção de Equipamentos da Medicina;33903950;-8;1;1;"Discriminação alterada de ""Manutenção de Equipamento"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+26;121;DPGC;Serviços Continuados de Limpeza Áreas Hospitalares e Assemalhadas;33903978;-8;1;1;"Discriminação alterada de ""Serviços Continuados de Limpeza"" para texto atual por solicitação do DPGC no Despacho 40374330 do Processo Sei nº 0005400041828/2020-81. Natureza da Despesa alterada de 33903950 (Serviço Médico Hospitalar Odontológico e Laborato";23-mai-20
+27;122;DPGC;Limpeza e Manutenção de Piscinas;33903950;-8;1;5;;23-mai-20
+28;123;DPGC;Serviço de Radiometria e Medição da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos.;33903905;-8;1;1;Natureza da Despesa Alterada de 33903964 para 33903905 conforme ofício 26 (40374330);23-mai-20
+29;124;DPGC;Serviço de Dosimetria da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos;33903905;-8;1;1;Natureza da Despesa Alterada de 33903964 para 33903905 conforme ofício 26 (40374330);23-mai-20
+30;125;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos da Medicina;33903978;-8;1;1;"Discriminação alterada de ""Serviço de Lavanderia para insumos utilizados em procedimentos"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+31;126;DPGC;Serviços de Lavanderia para Insumos utilizados em Procedimentos Cirúrgicos em Odontologia;33903905;-8;1;1;Natureza da Despesa alterada de 33903978 (limpeza e conservação) para 33903905 (Serviços Técnicos Profissionais) conforme Ofício 25 (40374330);23-mai-20
+32;127;DPGC;Serviço de recolhimento de resíduos sólidos de saúde - Medicina;33903978;-8;1;1;"Discriminação alterada de ""Serviço de recolhimento de resíduos sólidos de saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+33;128;DPGC;Serviço de Limpeza das Unidades Odontológicas de Atendimento;33903978;-8;1;1;;23-mai-20
+34;129;DPGC;Serviço Continuados de Apoio Técnico - Especializados.;33903978;-8;1;1;;23-mai-20
+35;13;DPPP;Gratificação Natalícia Incorporada às Pensões;'-8;31900305;1;1;;21-mai-20
+36;130;DPGC;Serviço de Adesivação das Unidades de Serviço Odontológico;33903999;-8;1;1;"Discriminação alterada de ""Serviço de Sinalização das Unidades de Serviço Odontológico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+37;131;DPGC;Pagamento de Impostos e Contribuições;33904702;-8;1;2;;23-mai-20
+38;132;DPGC;Filme Radiográfico para Unidades de Saúde - Medicina;33909230;-8;1;1;"Discriminação alterada de ""Filme Radiográfico para Unidades de Saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+39;133;DPGC;Despesas de Exercícios Anteriores;33909239;-8;1;2;;23-mai-20
+40;134;DPGC;Ressarcimento;33909308;-8;1;1;;23-mai-20
+41;135;DPGC;Reforma e Ampliação do COPMDF;44905100;-8;1;1;;23-mai-20
+42;136;DPGC;Projetos Executivos - CPQV;44905100;-8;1;5;;23-mai-20
+43;138;DPGC;Projetos Executivos - Centro de Capacitação Física;44905100;-8;1;5;;23-mai-20
+44;139;DPGC;Construção do Templo Católico;44905100;-8;1;5;;23-mai-20
+45;14;DPPP;Vencimentos;'-8;31901101;1;1;;23-mai-20
+46;140;DPGC;Construção do Centro Olímpico da PMDF;44905100;-8;1;5;;23-mai-20
+47;141;DPGC;Cadeira Terapêutica com controle remoto;44905208;-8;1;5;;23-mai-20
+48;142;DPGC;Equipamentos e Mobiliário Técnico Clínico para o - CMED.;44905208;-8;1;5;;23-mai-20
+49;143;DPGC;Equipamentos de Diagnósticos - RX +PACS - CMED.;44905208;-8;1;5;;23-mai-20
+50;144;DPGC;Equipamentos de Diagnósticos - ECG - CMED.;44905208;-8;1;5;;23-mai-20
+51;145;DPGC;Equipamentos Médicos hospitalares - CMED;44905208;-8;1;5;"Discriminação alterada de ""Equipamentos Médicos hospitalares"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+52;146;DPGC;Equipamento para Laboratório de Análises Clínicas;44905208;-8;1;5;;23-mai-20
+53;147;DPGC;Mobiliário Técnico Clínico-Odontológico - Modular;44905208;-8;1;1;"Discriminação alterada de ""Mobiliário Técnico Clínico-Odontológico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+54;148;DPGC;Equipamentos Odontológicos;44905208;-8;1;1;;23-mai-20
+55;149;DPGC;Equipamentos para Central de Material Esterilizado dos Serviços Odontológicos;44905208;-8;1;1;;23-mai-20
+56;15;DPPP;Adicional de Tempo de Serviço;'-8;31901104;1;1;;
+57;150;DPGC;Aquisição de Equipamento de Proteção, Segurança e Socorro - CMED;44905224;-8;1;1;"Discriminação alterada de ""Aquisição de Equipamento de Proteção, Segurança e Socorro"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+58;151;DPGC;OSS - Organização Social de Saúde;33504305;-8;1;4;;23-mai-20
+59;152;DPGC;Serviço Continuados de Apoio Técnico - Especializados Administrativo: recepcionista, auxiliar almoxarifado, telemarketing etc;33903950;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808273;23-mai-20
+60;153;DPGC;Aquisição de Ferramentas. CPQV;33903042;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808274;23-mai-20
+61;154;DPGC;Materiais e Utensílios de Saúde Complementar ao Serviço Odontológico;33903036;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808275;23-mai-20
+62;155;DPGC;Serviço de  Recolhimento de Resíduos de Saúde das Unidades Odontológicas de Atendimento;33903905;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808276. Natureza da Despesa alterada de 33903606 Ofício 40374330;23-mai-20
+63;156;DPGC;Mobiliário Técnico Clínico-Odontológico Sob Medida;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808277;23-mai-20
+64;157;DPGC;Equipamentos de Saúde Complementar ao Serviço Odontológico;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808278;23-mai-20
+65;158;DPGC;Equipamentos para Documentação Ortodôntica e Fotografia Odontológica;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808279;23-mai-20
+66;159;DPGC;Equipamentos Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808280;23-mai-20
+67;16;DPPP;Adicional de Insalubridade;'-8;31901107;1;1;;
+68;160;DPGC;Equipamentos de Radiologia Odontológica;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808281;23-mai-20
+69;161;DPGC;Serviço de Manutenção de Equipamentos Odontológicos;33903917;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-81. Discriminação e Classificação alterada conforme Ofício 40374330.;23-mai-20
+70;162;DPGC;Serviço de Reposição de Peças de Equipamentos Odontológicos;33903917;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-82. Discriminação e Classificação alterada conforme Ofício 40374330.;23-mai-20
+71;163;DPGC;Medicamentos Antineoplásicos, Adjuvantes e Imunossupressores a serem utilizados no CMED;33903009;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-83;23-mai-20
+72;164;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos Odontológicos;33903978;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-84;23-mai-20
+73;165;DPGC;Materiais Odontológicos;33903010;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-85;23-mai-20
+74;166;DPGC;Serviço de Assinatura de Software de Base para Controle de Dados e Prontuários Odontológicos;33903911;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-86. Código do Produto alterado de 266 (Sistema desenvolvido) para 268 (Sistema Instalado) e Classificação alterada conforme Ofício 26 (40374330);21-mai-20
+75;167;DPGC;Materiais Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal - Odontológicos;33903014;-8;1;5;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-87;21-mai-20
+76;168;DPGC;Aluguel de Galpão para Guarda de Insumos Odontológicos;33903910;-8;1;1;;21-mai-20
+77;17;DPPP;Adicional de Periculosidade;'-8;31901110;1;1;;21-mai-20
+78;18;DPPP;Complementação de Vencimentos e Salários;'-8;31901114;1;1;;21-mai-20
+79;19;DPPP;Gratificação de Habilitação;'-8;31901118;1;1;;21-mai-20
+80;2;DPPP;Gratificação Natalícia Incorporada por Pessoal Inativo;'-8;31900112;1;1;;21-mai-20
+81;20;DPPP;Gratificação Natalícia Pessoal Civil Estatutário;'-8;31901121;1;1;;21-mai-20
+82;21;DPPP;Gratificação Pessoal Civil Celetistas;'-8;31901122;1;1;;21-mai-20
+83;22;DPPP;Gratificação de Titulação;'-8;31901123;1;1;;21-mai-20
+84;23;DPPP;Abono de Férias Constitucional;'-8;31901132;1;1;;21-mai-20
+85;24;DPPP;Vantagem Pessoal Nominalmente Identificada;'-8;31901134;1;1;;21-mai-20
+86;25;DPPP;Representação e Vencimentos de Pessoal Civil Comissionado;'-8;31901167;1;1;;21-mai-20
+87;26;DPPP;Abono de Permanência;'-8;31901195;1;1;;21-mai-20
+88;27;DPPP;Soldo;31901201;-8;1;1;;21-mai-20
+89;28;DPPP;Adicional Militar;31901204;-8;1;1;;21-mai-20
+90;29;DPPP;Adicional de Habilitação;31901206;-8;1;1;;21-mai-20
+91;3;DPPP;Complementação de Aposentadoria de Pessoal Militar;31900115;-8;1;1;;21-mai-20
+92;30;DPPP;Gratificação de Representação;31901208;-8;1;1;;21-mai-20
+93;31;DPPP;Gratificação Natalícia de Pessoal Militar Ativo;'-8;31901208;1;1;;21-mai-20
+94;32;DPPP;Gratificação de Função de Natureza Especial;31901209;-8;1;1;;21-mai-20
+95;33;DPPP;Gratificação de Serviço Voluntário;31901210;-8;1;1;;21-mai-20
+96;34;DPPP;Vantagem Pecuniária Especial;31901211;-8;1;1;;21-mai-20
+97;35;DPPP;Gratificação Militar de Segurança Institucional;'-8;31901216;1;1;;21-mai-20
+98;36;DPPP;Abono de Férias de Gratificação Militar de Segurança Institucional;'-8;31901218;1;1;;21-mai-20
+99;37;DPPP;Férias Vencidas Proporcionais;31901242;-8;1;1;;21-mai-20
+100;38;DPPP;Gratificação Natalícia;31901243;-8;1;1;;21-mai-20
+101;39;DPPP;Abono de Férias;31901245;-8;1;1;;21-mai-20
+102;4;DPPP;Vantagem Pecuniária Especial de Pessoal Militar Inativo;31900117;-8;1;1;;21-mai-20
+103;40;DPPP;Complementação Salarial de Pessoal Militar;31901287;-8;1;1;;21-mai-20
+104;41;DPPP;Instituto Nacional de Seguro Social Patronal a Recolher;'-8;31901302;1;1;;21-mai-20
+105;42;DPPP;Sentença Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Ativo Civil;31909114;-8;1;1;;21-mai-20
+106;43;DPPP;Sentença Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Inativo;31909115;-8;1;1;;21-mai-20
+107;44;DPPP;Despesa de Exercícios Anteriores de Pessoal Inativo;31909201;-8;1;1;;21-mai-20
+108;45;DPPP;Despesas de Exercícios Anteriores para Pagamento de Incorporação de Pessoal Inativo;'-8;31909201;1;1;;21-mai-20
+109;46;DPPP;Despesa de Exercícios Anteriores de Pensionistas;31909203;-8;1;1;;21-mai-20
+110;47;DPPP;Despesas de Exercícios Anteriores de Pessoal de Pensionistas;'-8;31909203;1;1;;21-mai-20
+111;48;DPPP;Despesa de Exercícios Anteriores de Sentenças Judiciais;31909291;-8;1;1;;21-mai-20
+112;49;DPPP;Despesas de Exercícios Anteriores para Pagamento de Licenças Especiais;31909294;-8;1;1;;21-mai-20
+113;5;DPPP;Proventos de Pessoal Militar Inativo;31900121;-8;1;1;;21-mai-20
+114;50;DPPP;Despesas de Exercícios Anteriores de Pessoal Civil;'-8;31909211;1;1;;21-mai-20
+115;51;DPPP;Despesas de Exercícios Anteriores para Pagamento de Incorporações de Pessoal Ativo;'-8;31909212;1;1;;21-mai-20
+116;52;DPPP;Despesas de Exercícios Anteriores de Obrigações Patronais;'-8;31909213;1;1;;21-mai-20
+117;53;DPPP;Despesas de Exercícios Anteriores de Restituições Trabalhistas;'-8;31909294;1;1;;21-mai-20
+118;54;DPPP;Indenização por Exoneração e Demissão;'-8;31909403;1;1;;21-mai-20
+119;55;DPPP;Indenização de Licenças Especiais;31909415;-8;1;1;;21-mai-20
+120;56;DPPP;Contribuição Patronal de Pessoal Civil Estatutário;'-8;31911308;1;1;;21-mai-20
+121;57;DPPP;Auxílio Funeral de Pessoal Militar Ativo;33900802;-8;1;1;;21-mai-20
+122;58;DPPP;Auxílio Natalidade de Pessoal Militar Ativo;33900806;-8;1;1;;21-mai-20
+123;59;DPPP;Auxílio Creche de Pessoal Militar;33900810;-8;1;1;;21-mai-20
+124;6;DPPP;Vantagens Incorporadas de Pessoal Militar Inativo;31900122;-8;1;1;;21-mai-20
+125;60;DPPP;Auxílio Creche de Pessoal Civil;'-8;33900855;1;1;;21-mai-20
+126;61;DPPP;Diária no País;33901514;33901514;1;5;;21-mai-20
+127;62;DPPP;Diárias no Exterior;33901516;33901516;1;5;;21-mai-20
+128;63;DPPP;Auxílio Fardamento de Pessoal Militar;33901901;-8;1;1;;21-mai-20
+129;64;DPPP;Auxílio Alimentação de Pessoal Militar;33904602;-8;1;1;;21-mai-20
+130;65;DPPP;Auxílio Alimentação de Pessoal Civil;'-8;33904602;1;1;;21-mai-20
+131;66;DPPP;Auxílio Transporte de Pessoal Civil;'-8;33904901;1;1;;21-mai-20
+132;67;DPPP;Indenização Oriunda de Débitos Periódicos Vinculada à Sentenças Judiciais de Pensionistas;33905901;-8;1;1;;21-mai-20
+133;68;DPPP;Despesas de Exercícios Anteriores de Outros Benefícios Assististenciais de Pessoal Militar;33909208;-8;1;1;;21-mai-20
+134;69;DPPP;Despesas de Exercícios Anteriores de Auxílio Alimentação de Pessoal Militar;33909246;-8;1;1;;21-mai-20
+135;7;DPPP;Auxílio Invalidez de Pessoal Militar Inativo;31900123;-8;1;1;;21-mai-20
+136;-7;Não Identificado;Não se aplica;'-8;-8;1;;;23-mai-20
+137;70;DPPP;Despesas de Exercícios Anteriores de Auxílio Alimentação de Pessoal Civil;'-8;33909246;1;1;;21-mai-20
+138;71;DPPP;Despesas de Exercícios Anteriores para Pagamento de Indenizações;33909293;-8;1;1;;21-mai-20
+139;72;DPPP;Ajuda de Custo de Pessoal Civil;'-8;33909311;1;5;;21-mai-20
+140;73;DPPP;Ajuda de Custo de Pessoal Militar;33909318;33909312;1;1;;21-mai-20
+141;74;DPPP;Indenização de Transporte de Pessoal Militar;33909319;-8;1;5;;21-mai-20
+142;75;DPPP;Indenização de Moradia de Pessoal Militar;33909320;-8;1;1;;21-mai-20
+143;76;DPGC;Medicamentos indispensáveis para a manutenção e funcionamento do CMED;33903009;-8;1;1;"Discriminação alterada de ""Medicamentos para uso em unidades de saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";21-mai-20
+144;77;DPGC;Materiais Odontológicos Preventivos;33903010;-8;1;1;;21-mai-20
+145;78;DPGC;Materiais Odontológicos Curativos;33903010;-8;1;1;;21-mai-20
+146;79;DPGC;Material Educativo e Esportivo;33903014;-8;1;5;;21-mai-20
+147;8;DPPP;Décimo Terceiro Salário de Pessoal Militar Inativo;31900126;-8;1;1;;21-mai-20
+148;-8;Não Identificado;Sem Pevisão no Plano Interno de Orçamento;'-8;-8;1;;;23-mai-20
+149;80;DPGC;Material de acondicionamento e armazenamento para unidades de saúde;33903019;-8;1;1;;23-mai-20
+150;81;DPGC;Material de Limpeza e Higienização para Unidades de Saúde;33903022;-8;1;1;;23-mai-20
+151;82;DPGC;Material para Manutenção de Bens Imóveis e Instalações;33903024;-8;1;1;;23-mai-20
+152;83;DPGC;Material para Manutenção de Bens Móveis de Saúde;33903025;-8;1;1;;23-mai-20
+153;84;DPGC;Material Elétrico e Eletrônico para uso em unidades de saúde;33903026;-8;1;1;;23-mai-20
+154;85;DPGC;Equipamentos de Proteção Individual em Odontologia;33903028;-8;1;1;;23-mai-20
+155;86;DPGC;Equipamentos para Proteção Individual para uso em unidades de saúde;33903028;-8;1;1;;23-mai-20
+156;87;DPGC;Insumos indispensáveis para a manutenção e funcionamento do serviço hospitalar - CMED;33903035;-8;1;1;"Discriminação alterada de ""Material de Uso Laboratorial"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+157;88;DPGC;Material de Consumo Hospitalar Cirúrgico - Medicina;33903036;-8;1;1;"Discriminação alterada de ""Material de Consumo Hospitalar Cirúrgico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+158;89;DPGC;Assinatura de periódicos e Anuídades Específicas para Área de Saúde;33903901;-8;1;1;;23-mai-20
+159;9;DPPP;Gratificação de Representação de Pessoal Militar Inativo;'-8;31900163;1;1;;21-mai-20
+160;-9;Não Identificado;Demanda não Identificada;'-8;-8;1;;;23-mai-20
+161;90;DPGC;Serviço de Gestão hospitalar/ Engenharia Clínica;33903905;-8;1;1;"Discriminação alterada de ""Serviço de Gestão em Saúde "" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+162;91;DPGC;Serviços Continuados de Apoio Técnico - Auxiliares e Técnicos em Saúde Bucal - CO;33903905;-8;1;1;"Discriminação alterada de ""Serviços Continuados de Apoio Técnico - Auxiliares e Técnicos em Saúde Bucal"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+163;92;DPGC;Aluguel de Imóvel para uso de Unidade de Saúde;33903910;-8;1;1;;23-mai-20
+164;93;DPGC;Serviço de locação de Equipamentos para laboratório;33903912;-8;1;1;;23-mai-20
+165;94;DPGC;Manutenção de Bem Imóvel Utilizado para Unidade de Saúde;33903916;-8;1;1;;23-mai-20
+166;95;DPGC;Serviço de Manutenção de Equipamentos;33903917;-8;1;1;;23-mai-20
+167;96;DPGC;Serviço de fornecimento de peças de equipamentos médicos.;33903917;-8;1;1;;23-mai-20
+168;97;DPGC;Serviço de adaptação, manutenção corretiva inicial de sistema de vácuo clínico e ar comprimido medicinal - CMED;33903917;-8;1;1;"Discriminação alterada de ""Serviço de adaptação, manutenção corretiva inicial de sistema de vácuo clínico e ar comprimido medicinal "" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
+169;98;DPGC;Serviço de manutenção preventiva e corretiva de sistema de vácuo clínico e ar comprimido medicinal;33903917;-8;1;1;;23-mai-20
+170;99;DPGC;Serviço de manutenção corretiva inicial de geradores;33903917;-8;1;1;;23-mai-20
