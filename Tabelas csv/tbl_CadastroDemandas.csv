@@ -1,171 +1,318 @@
-﻿ID_CadastroDemanda;cad_CodigocadastroDemandas;CSO_Codigo;cad_Discriminacao;ndf_Codigo;ndg_CodigoNaturezaDespesaDetalhada;Periodicidade;cad_IdEspecieDisponibilidade;cad_Observacao;Cad_DataInclusao
-1;1;DPPP;Adicional por Tempo de Serviço de Pessoal Civil;31900109;-8;1;1;;21-mai-20
-2;10;DPPP;Gratificação de Representação Militar para Incorporada às Pensões;'-8;31900301;1;1;A classificação da Despesa adequada para Gratificação de Representação Militar para incorporada em Pensões é a 31900312 todavia o DGP faz o empenho na classificação indicada pelo GDF nos relatórios de folha.;21-mai-20
-3;100;DPGC;Serviço de manutenção preventivae corretiva de geradores;33903917;-8;1;1;;23-mai-20
-4;101;DPGC;Serviço de Fornecimento de Peças para Equipamentos de Radiologia odontológica;33903917;-8;1;1;"Discriminação alterada de ""Serviço de Fornecimento de Peças para Equipamentos de Radiologia"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-5;102;DPGC;Serviço de Manutenção de Instalações, Acessórios e Mobiliários das Unidades Odontológicas Móveis - UNAMPRO's;33903917;-8;1;1;"Discriminação alterada de ""Serviço de Manutenção de Instalações, Acessórios e Mobiliários das Unidades Odontológicas Móveis."" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-6;103;DPGC;Serviço de Fornecimento de Peças de Equipamentos Odontológicos.;33903917;-8;1;1;;23-mai-20
-7;104;DPGC;Serviço de manutenção de Equipamentos Médicos.;33903917;-8;1;1;;23-mai-20
-8;105;DPGC;Serviço de Manutenção de Equipamentos de Radiologia Odontológica;33903917;-8;1;1;Classificação da Despesa alterada de 33903937 (Juros) para 33903917 (Manutenação e conservação de maquinas e equipamento) conforme ofício 26 (40474330).;23-mai-20
-9;106;DPGC;Serviço de Alimentação / Nutrição com fornecimento de Refeição;33903941;-8;1;1;;23-mai-20
-10;107;DPGC;Implementação do Pronto Atendimento;33903950;-8;1;1;;23-mai-20
-11;108;DPGC;Serviço de medição da incidência de radiação emitida pelos aparelhos de RX - CMED;33903950;-8;1;1;"Discriminação alterada de ""Serviço de medicação da incidência de radiação emitida pelos aparelhos de RX"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-12;109;DPGC;Serviço Continuados de Apoio Técnico - Especializados - Enfermeiros, psicologos, etc;33903950;-8;1;1;"Discriminação alterada de ""Serviço Continuados de Apoio Técnico - Especializados."" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-13;11;DPPP;Pensões Militares;31900302;-8;1;1;;21-mai-20
-14;110;DPGC;Psicoterapia;33903950;-8;1;1;;23-mai-20
-15;111;DPGC;Hospital Geral;33903950;-8;1;1;;23-mai-20
-16;112;DPGC;Home Care;33903950;-8;1;1;;23-mai-20
-17;113;DPGC;Psiquiatria para adultos;33903950;-8;1;1;;23-mai-20
-18;114;DPGC;Assistência Clínica e Cirúrgica em Geral;33903950;-8;1;1;;23-mai-20
-19;115;DPGC;Hemodiálise, Quimioterapia e Oncologia;33903950;-8;1;1;;23-mai-20
-20;116;DPGC;Saúde Mental;33903950;-8;1;1;;23-mai-20
-21;117;DPGC;Imagens e Análises Clínicas;33903950;-8;1;1;;23-mai-20
-22;118;DPGC;Empresa de auditoria;33903950;-8;1;1;;23-mai-20
-23;119;DPGC;Serviço de Reposição de Peças da Medicina;33903950;-8;1;1;"Discriminação alterada de ""Serviço de Reposição de Peças"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-24;12;DPPP;Gratificação Natalícia de Pensionistas Militares;31900304;-8;1;1;;21-mai-20
-25;120;DPGC;Manutenção de Equipamentos da Medicina;33903950;-8;1;1;"Discriminação alterada de ""Manutenção de Equipamento"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-26;121;DPGC;Serviços Continuados de Limpeza Áreas Hospitalares e Assemalhadas;33903978;-8;1;1;"Discriminação alterada de ""Serviços Continuados de Limpeza"" para texto atual por solicitação do DPGC no Despacho 40374330 do Processo Sei nº 0005400041828/2020-81. Natureza da Despesa alterada de 33903950 (Serviço Médico Hospitalar Odontológico e Laborato";23-mai-20
-27;122;DPGC;Limpeza e Manutenção de Piscinas;33903950;-8;1;5;;23-mai-20
-28;123;DPGC;Serviço de Radiometria e Medição da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos.;33903905;-8;1;1;Natureza da Despesa Alterada de 33903964 para 33903905 conforme ofício 26 (40374330);23-mai-20
-29;124;DPGC;Serviço de Dosimetria da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos;33903905;-8;1;1;Natureza da Despesa Alterada de 33903964 para 33903905 conforme ofício 26 (40374330);23-mai-20
-30;125;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos da Medicina;33903978;-8;1;1;"Discriminação alterada de ""Serviço de Lavanderia para insumos utilizados em procedimentos"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-31;126;DPGC;Serviços de Lavanderia para Insumos utilizados em Procedimentos Cirúrgicos em Odontologia;33903905;-8;1;1;Natureza da Despesa alterada de 33903978 (limpeza e conservação) para 33903905 (Serviços Técnicos Profissionais) conforme Ofício 25 (40374330);23-mai-20
-32;127;DPGC;Serviço de recolhimento de resíduos sólidos de saúde - Medicina;33903978;-8;1;1;"Discriminação alterada de ""Serviço de recolhimento de resíduos sólidos de saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-33;128;DPGC;Serviço de Limpeza das Unidades Odontológicas de Atendimento;33903978;-8;1;1;;23-mai-20
-34;129;DPGC;Serviço Continuados de Apoio Técnico - Especializados.;33903978;-8;1;1;;23-mai-20
-35;13;DPPP;Gratificação Natalícia Incorporada às Pensões;'-8;31900305;1;1;;21-mai-20
-36;130;DPGC;Serviço de Adesivação das Unidades de Serviço Odontológico;33903999;-8;1;1;"Discriminação alterada de ""Serviço de Sinalização das Unidades de Serviço Odontológico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-37;131;DPGC;Pagamento de Impostos e Contribuições;33904702;-8;1;2;;23-mai-20
-38;132;DPGC;Filme Radiográfico para Unidades de Saúde - Medicina;33909230;-8;1;1;"Discriminação alterada de ""Filme Radiográfico para Unidades de Saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-39;133;DPGC;Despesas de Exercícios Anteriores;33909239;-8;1;2;;23-mai-20
-40;134;DPGC;Ressarcimento;33909308;-8;1;1;;23-mai-20
-41;135;DPGC;Reforma e Ampliação do COPMDF;44905100;-8;1;1;;23-mai-20
-42;136;DPGC;Projetos Executivos - CPQV;44905100;-8;1;5;;23-mai-20
-43;138;DPGC;Projetos Executivos - Centro de Capacitação Física;44905100;-8;1;5;;23-mai-20
-44;139;DPGC;Construção do Templo Católico;44905100;-8;1;5;;23-mai-20
-45;14;DPPP;Vencimentos;'-8;31901101;1;1;;23-mai-20
-46;140;DPGC;Construção do Centro Olímpico da PMDF;44905100;-8;1;5;;23-mai-20
-47;141;DPGC;Cadeira Terapêutica com controle remoto;44905208;-8;1;5;;23-mai-20
-48;142;DPGC;Equipamentos e Mobiliário Técnico Clínico para o - CMED.;44905208;-8;1;5;;23-mai-20
-49;143;DPGC;Equipamentos de Diagnósticos - RX +PACS - CMED.;44905208;-8;1;5;;23-mai-20
-50;144;DPGC;Equipamentos de Diagnósticos - ECG - CMED.;44905208;-8;1;5;;23-mai-20
-51;145;DPGC;Equipamentos Médicos hospitalares - CMED;44905208;-8;1;5;"Discriminação alterada de ""Equipamentos Médicos hospitalares"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-52;146;DPGC;Equipamento para Laboratório de Análises Clínicas;44905208;-8;1;5;;23-mai-20
-53;147;DPGC;Mobiliário Técnico Clínico-Odontológico - Modular;44905208;-8;1;1;"Discriminação alterada de ""Mobiliário Técnico Clínico-Odontológico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-54;148;DPGC;Equipamentos Odontológicos;44905208;-8;1;1;;23-mai-20
-55;149;DPGC;Equipamentos para Central de Material Esterilizado dos Serviços Odontológicos;44905208;-8;1;1;;23-mai-20
-56;15;DPPP;Adicional de Tempo de Serviço;'-8;31901104;1;1;;
-57;150;DPGC;Aquisição de Equipamento de Proteção, Segurança e Socorro - CMED;44905224;-8;1;1;"Discriminação alterada de ""Aquisição de Equipamento de Proteção, Segurança e Socorro"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-58;151;DPGC;OSS - Organização Social de Saúde;33504305;-8;1;4;;23-mai-20
-59;152;DPGC;Serviço Continuados de Apoio Técnico - Especializados Administrativo: recepcionista, auxiliar almoxarifado, telemarketing etc;33903950;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808273;23-mai-20
-60;153;DPGC;Aquisição de Ferramentas. CPQV;33903042;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808274;23-mai-20
-61;154;DPGC;Materiais e Utensílios de Saúde Complementar ao Serviço Odontológico;33903036;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808275;23-mai-20
-62;155;DPGC;Serviço de  Recolhimento de Resíduos de Saúde das Unidades Odontológicas de Atendimento;33903905;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808276. Natureza da Despesa alterada de 33903606 Ofício 40374330;23-mai-20
-63;156;DPGC;Mobiliário Técnico Clínico-Odontológico Sob Medida;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808277;23-mai-20
-64;157;DPGC;Equipamentos de Saúde Complementar ao Serviço Odontológico;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808278;23-mai-20
-65;158;DPGC;Equipamentos para Documentação Ortodôntica e Fotografia Odontológica;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808279;23-mai-20
-66;159;DPGC;Equipamentos Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808280;23-mai-20
-67;16;DPPP;Adicional de Insalubridade;'-8;31901107;1;1;;
-68;160;DPGC;Equipamentos de Radiologia Odontológica;44905208;-8;1;1;Demanda Inserida conforme solicitação contante do Processo SEI nº 00054-00041828/2020-81 despacho nº 39808281;23-mai-20
-69;161;DPGC;Serviço de Manutenção de Equipamentos Odontológicos;33903917;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-81. Discriminação e Classificação alterada conforme Ofício 40374330.;23-mai-20
-70;162;DPGC;Serviço de Reposição de Peças de Equipamentos Odontológicos;33903917;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-82. Discriminação e Classificação alterada conforme Ofício 40374330.;23-mai-20
-71;163;DPGC;Medicamentos Antineoplásicos, Adjuvantes e Imunossupressores a serem utilizados no CMED;33903009;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-83;23-mai-20
-72;164;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos Odontológicos;33903978;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-84;23-mai-20
-73;165;DPGC;Materiais Odontológicos;33903010;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-85;23-mai-20
-74;166;DPGC;Serviço de Assinatura de Software de Base para Controle de Dados e Prontuários Odontológicos;33903911;-8;1;1;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-86. Código do Produto alterado de 266 (Sistema desenvolvido) para 268 (Sistema Instalado) e Classificação alterada conforme Ofício 26 (40374330);21-mai-20
-75;167;DPGC;Materiais Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal - Odontológicos;33903014;-8;1;5;Demanda inserida conforme Despacho 40213573 no Processo Sei nº 00054.00041828/2020-87;21-mai-20
-76;168;DPGC;Aluguel de Galpão para Guarda de Insumos Odontológicos;33903910;-8;1;1;;21-mai-20
-77;17;DPPP;Adicional de Periculosidade;'-8;31901110;1;1;;21-mai-20
-78;18;DPPP;Complementação de Vencimentos e Salários;'-8;31901114;1;1;;21-mai-20
-79;19;DPPP;Gratificação de Habilitação;'-8;31901118;1;1;;21-mai-20
-80;2;DPPP;Gratificação Natalícia Incorporada por Pessoal Inativo;'-8;31900112;1;1;;21-mai-20
-81;20;DPPP;Gratificação Natalícia Pessoal Civil Estatutário;'-8;31901121;1;1;;21-mai-20
-82;21;DPPP;Gratificação Pessoal Civil Celetistas;'-8;31901122;1;1;;21-mai-20
-83;22;DPPP;Gratificação de Titulação;'-8;31901123;1;1;;21-mai-20
-84;23;DPPP;Abono de Férias Constitucional;'-8;31901132;1;1;;21-mai-20
-85;24;DPPP;Vantagem Pessoal Nominalmente Identificada;'-8;31901134;1;1;;21-mai-20
-86;25;DPPP;Representação e Vencimentos de Pessoal Civil Comissionado;'-8;31901167;1;1;;21-mai-20
-87;26;DPPP;Abono de Permanência;'-8;31901195;1;1;;21-mai-20
-88;27;DPPP;Soldo;31901201;-8;1;1;;21-mai-20
-89;28;DPPP;Adicional Militar;31901204;-8;1;1;;21-mai-20
-90;29;DPPP;Adicional de Habilitação;31901206;-8;1;1;;21-mai-20
-91;3;DPPP;Complementação de Aposentadoria de Pessoal Militar;31900115;-8;1;1;;21-mai-20
-92;30;DPPP;Gratificação de Representação;31901208;-8;1;1;;21-mai-20
-93;31;DPPP;Gratificação Natalícia de Pessoal Militar Ativo;'-8;31901208;1;1;;21-mai-20
-94;32;DPPP;Gratificação de Função de Natureza Especial;31901209;-8;1;1;;21-mai-20
-95;33;DPPP;Gratificação de Serviço Voluntário;31901210;-8;1;1;;21-mai-20
-96;34;DPPP;Vantagem Pecuniária Especial;31901211;-8;1;1;;21-mai-20
-97;35;DPPP;Gratificação Militar de Segurança Institucional;'-8;31901216;1;1;;21-mai-20
-98;36;DPPP;Abono de Férias de Gratificação Militar de Segurança Institucional;'-8;31901218;1;1;;21-mai-20
-99;37;DPPP;Férias Vencidas Proporcionais;31901242;-8;1;1;;21-mai-20
-100;38;DPPP;Gratificação Natalícia;31901243;-8;1;1;;21-mai-20
-101;39;DPPP;Abono de Férias;31901245;-8;1;1;;21-mai-20
-102;4;DPPP;Vantagem Pecuniária Especial de Pessoal Militar Inativo;31900117;-8;1;1;;21-mai-20
-103;40;DPPP;Complementação Salarial de Pessoal Militar;31901287;-8;1;1;;21-mai-20
-104;41;DPPP;Instituto Nacional de Seguro Social Patronal a Recolher;'-8;31901302;1;1;;21-mai-20
-105;42;DPPP;Sentença Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Ativo Civil;31909114;-8;1;1;;21-mai-20
-106;43;DPPP;Sentença Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Inativo;31909115;-8;1;1;;21-mai-20
-107;44;DPPP;Despesa de Exercícios Anteriores de Pessoal Inativo;31909201;-8;1;1;;21-mai-20
-108;45;DPPP;Despesas de Exercícios Anteriores para Pagamento de Incorporação de Pessoal Inativo;'-8;31909201;1;1;;21-mai-20
-109;46;DPPP;Despesa de Exercícios Anteriores de Pensionistas;31909203;-8;1;1;;21-mai-20
-110;47;DPPP;Despesas de Exercícios Anteriores de Pessoal de Pensionistas;'-8;31909203;1;1;;21-mai-20
-111;48;DPPP;Despesa de Exercícios Anteriores de Sentenças Judiciais;31909291;-8;1;1;;21-mai-20
-112;49;DPPP;Despesas de Exercícios Anteriores para Pagamento de Licenças Especiais;31909294;-8;1;1;;21-mai-20
-113;5;DPPP;Proventos de Pessoal Militar Inativo;31900121;-8;1;1;;21-mai-20
-114;50;DPPP;Despesas de Exercícios Anteriores de Pessoal Civil;'-8;31909211;1;1;;21-mai-20
-115;51;DPPP;Despesas de Exercícios Anteriores para Pagamento de Incorporações de Pessoal Ativo;'-8;31909212;1;1;;21-mai-20
-116;52;DPPP;Despesas de Exercícios Anteriores de Obrigações Patronais;'-8;31909213;1;1;;21-mai-20
-117;53;DPPP;Despesas de Exercícios Anteriores de Restituições Trabalhistas;'-8;31909294;1;1;;21-mai-20
-118;54;DPPP;Indenização por Exoneração e Demissão;'-8;31909403;1;1;;21-mai-20
-119;55;DPPP;Indenização de Licenças Especiais;31909415;-8;1;1;;21-mai-20
-120;56;DPPP;Contribuição Patronal de Pessoal Civil Estatutário;'-8;31911308;1;1;;21-mai-20
-121;57;DPPP;Auxílio Funeral de Pessoal Militar Ativo;33900802;-8;1;1;;21-mai-20
-122;58;DPPP;Auxílio Natalidade de Pessoal Militar Ativo;33900806;-8;1;1;;21-mai-20
-123;59;DPPP;Auxílio Creche de Pessoal Militar;33900810;-8;1;1;;21-mai-20
-124;6;DPPP;Vantagens Incorporadas de Pessoal Militar Inativo;31900122;-8;1;1;;21-mai-20
-125;60;DPPP;Auxílio Creche de Pessoal Civil;'-8;33900855;1;1;;21-mai-20
-126;61;DPPP;Diária no País;33901514;33901514;1;5;;21-mai-20
-127;62;DPPP;Diárias no Exterior;33901516;33901516;1;5;;21-mai-20
-128;63;DPPP;Auxílio Fardamento de Pessoal Militar;33901901;-8;1;1;;21-mai-20
-129;64;DPPP;Auxílio Alimentação de Pessoal Militar;33904602;-8;1;1;;21-mai-20
-130;65;DPPP;Auxílio Alimentação de Pessoal Civil;'-8;33904602;1;1;;21-mai-20
-131;66;DPPP;Auxílio Transporte de Pessoal Civil;'-8;33904901;1;1;;21-mai-20
-132;67;DPPP;Indenização Oriunda de Débitos Periódicos Vinculada à Sentenças Judiciais de Pensionistas;33905901;-8;1;1;;21-mai-20
-133;68;DPPP;Despesas de Exercícios Anteriores de Outros Benefícios Assististenciais de Pessoal Militar;33909208;-8;1;1;;21-mai-20
-134;69;DPPP;Despesas de Exercícios Anteriores de Auxílio Alimentação de Pessoal Militar;33909246;-8;1;1;;21-mai-20
-135;7;DPPP;Auxílio Invalidez de Pessoal Militar Inativo;31900123;-8;1;1;;21-mai-20
-136;-7;Não Identificado;Não se aplica;'-8;-8;1;;;23-mai-20
-137;70;DPPP;Despesas de Exercícios Anteriores de Auxílio Alimentação de Pessoal Civil;'-8;33909246;1;1;;21-mai-20
-138;71;DPPP;Despesas de Exercícios Anteriores para Pagamento de Indenizações;33909293;-8;1;1;;21-mai-20
-139;72;DPPP;Ajuda de Custo de Pessoal Civil;'-8;33909311;1;5;;21-mai-20
-140;73;DPPP;Ajuda de Custo de Pessoal Militar;33909318;33909312;1;1;;21-mai-20
-141;74;DPPP;Indenização de Transporte de Pessoal Militar;33909319;-8;1;5;;21-mai-20
-142;75;DPPP;Indenização de Moradia de Pessoal Militar;33909320;-8;1;1;;21-mai-20
-143;76;DPGC;Medicamentos indispensáveis para a manutenção e funcionamento do CMED;33903009;-8;1;1;"Discriminação alterada de ""Medicamentos para uso em unidades de saúde"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";21-mai-20
-144;77;DPGC;Materiais Odontológicos Preventivos;33903010;-8;1;1;;21-mai-20
-145;78;DPGC;Materiais Odontológicos Curativos;33903010;-8;1;1;;21-mai-20
-146;79;DPGC;Material Educativo e Esportivo;33903014;-8;1;5;;21-mai-20
-147;8;DPPP;Décimo Terceiro Salário de Pessoal Militar Inativo;31900126;-8;1;1;;21-mai-20
-148;-8;Não Identificado;Sem Pevisão no Plano Interno de Orçamento;'-8;-8;1;;;23-mai-20
-149;80;DPGC;Material de acondicionamento e armazenamento para unidades de saúde;33903019;-8;1;1;;23-mai-20
-150;81;DPGC;Material de Limpeza e Higienização para Unidades de Saúde;33903022;-8;1;1;;23-mai-20
-151;82;DPGC;Material para Manutenção de Bens Imóveis e Instalações;33903024;-8;1;1;;23-mai-20
-152;83;DPGC;Material para Manutenção de Bens Móveis de Saúde;33903025;-8;1;1;;23-mai-20
-153;84;DPGC;Material Elétrico e Eletrônico para uso em unidades de saúde;33903026;-8;1;1;;23-mai-20
-154;85;DPGC;Equipamentos de Proteção Individual em Odontologia;33903028;-8;1;1;;23-mai-20
-155;86;DPGC;Equipamentos para Proteção Individual para uso em unidades de saúde;33903028;-8;1;1;;23-mai-20
-156;87;DPGC;Insumos indispensáveis para a manutenção e funcionamento do serviço hospitalar - CMED;33903035;-8;1;1;"Discriminação alterada de ""Material de Uso Laboratorial"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-157;88;DPGC;Material de Consumo Hospitalar Cirúrgico - Medicina;33903036;-8;1;1;"Discriminação alterada de ""Material de Consumo Hospitalar Cirúrgico"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-158;89;DPGC;Assinatura de periódicos e Anuídades Específicas para Área de Saúde;33903901;-8;1;1;;23-mai-20
-159;9;DPPP;Gratificação de Representação de Pessoal Militar Inativo;'-8;31900163;1;1;;21-mai-20
-160;-9;Não Identificado;Demanda não Identificada;'-8;-8;1;;;23-mai-20
-161;90;DPGC;Serviço de Gestão hospitalar/ Engenharia Clínica;33903905;-8;1;1;"Discriminação alterada de ""Serviço de Gestão em Saúde "" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-162;91;DPGC;Serviços Continuados de Apoio Técnico - Auxiliares e Técnicos em Saúde Bucal - CO;33903905;-8;1;1;"Discriminação alterada de ""Serviços Continuados de Apoio Técnico - Auxiliares e Técnicos em Saúde Bucal"" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-163;92;DPGC;Aluguel de Imóvel para uso de Unidade de Saúde;33903910;-8;1;1;;23-mai-20
-164;93;DPGC;Serviço de locação de Equipamentos para laboratório;33903912;-8;1;1;;23-mai-20
-165;94;DPGC;Manutenção de Bem Imóvel Utilizado para Unidade de Saúde;33903916;-8;1;1;;23-mai-20
-166;95;DPGC;Serviço de Manutenção de Equipamentos;33903917;-8;1;1;;23-mai-20
-167;96;DPGC;Serviço de fornecimento de peças de equipamentos médicos.;33903917;-8;1;1;;23-mai-20
-168;97;DPGC;Serviço de adaptação, manutenção corretiva inicial de sistema de vácuo clínico e ar comprimido medicinal - CMED;33903917;-8;1;1;"Discriminação alterada de ""Serviço de adaptação, manutenção corretiva inicial de sistema de vácuo clínico e ar comprimido medicinal "" para texto atual por solicitação do DPGC no Despacho 40213573 do Processo Sei nº 0005400041828/2020-81";23-mai-20
-169;98;DPGC;Serviço de manutenção preventiva e corretiva de sistema de vácuo clínico e ar comprimido medicinal;33903917;-8;1;1;;23-mai-20
-170;99;DPGC;Serviço de manutenção corretiva inicial de geradores;33903917;-8;1;1;;23-mai-20
+﻿Id_CadastroDemandas;cds_CodigoDemanda;cds_CoordenadorSetorial;cds_DescricaoObjeto;cds_ClassificacaoDespesaFCDF;cds_ClassificacaoDespesaGDF;cds_Produto/Unidade;cds_Periodicidade;cds_EspecieDisponibilidade
+122;174;CCS;Aquisição de medalhas;33903105;;;sim;5
+129;181;CME;Taxas Anac;33904710;;;sim;1
+130;182;CME;Abastecimento de aeronaves;33903002;;;sim;1
+131;183;CME;Seguro das aeronaves da PMDF;33903969;;;sim;2
+132;184;CME;Alimentos para animais;33903006;;;sim;1
+133;185;CME;material de coudelaria e uso zootecnico;33903012;;;sim;2
+134;186;CME;suprimento de aviação;33903032;;;sim;1
+135;187;CME;serviços em itens reparáveis de aviação;33903985;;;não;1
+136;188;CME;Contratação de Serviços Médicos Veterinários;33903950;;;não;5
+137;189;CME;Quilogramas de lastros 1kg;33903013;;;;
+138;190;CME;Quilogramas de lastros 2kg;33903013;;;não;5
+139;191;CME;Pares de nadadeiras de calcanhar aberto;33903013;;;não;5
+140;192;CME;Pares de luvas para mergulho autônomo;33903013;;;não;5
+141;193;CME;Mochilas grandes para material de mergulho;33903013;;;não;5
+142;194;CME;Carretilhas feitas em plástico super resistente;33903013;;;não;5
+143;195;CME;Máscara facial para mergulho modelo full face (face total);33903013;;;não;5
+144;196;CME;Máscara facial para mergulho modelo full face (face total);33903013;;;não;5
+145;197;CME;Medicamentos de uso Veterinário;33903018;;;não;5
+146;198;CME;Material de uso Hospitalar Veterinário;33903036;;;não;5
+147;199;CME;Aquisição de equipamento hospitalares;44905208;;;não;1
+148;200;CME;Rebocador para Helicóptero;44905248;;;não;1
+149;201;CME;Equipamento de Visão Termal;44905254;;;não;1
+150;202;CME;Plataforma de Transporte de Tropa;44905254;;;não;1
+151;203;CME;Imageador Térmico;44905254;;;sim;4
+152;204;CME;Paraquedas de Emergência;44905222;;;sim;1
+153;205;CME;Simulador de Voo;44905254;;;sim;1
+154;206;CME;Caminhão Tanque para QAV;44905252;;;sim;1
+155;207;CME;Boroscópio;44905254;;;sim;1
+156;208;CME;Sistema Intensificador de Imagem;44905254;;;não;1
+157;209;CME;Escudo balístico nível III A;44905224;;;não;1
+158;210;CME;Maleta de Gerenciamento de Crises;44905222;;;não;1
+159;211;CME;Binóculo c/ retícula iluminada;44905222;;;não;1
+160;212;CME;Óculos espião - câmera espiã alta resolução;44905222;;;não;1
+161;213;CME;Jammer Bloqueador de sinal GPS/GPRS;44905222;;;sim;1
+162;214;CME;Veiculo médio porte para ação antibomba;44905248;;;sim;1
+163;215;CME;Robô antibombas de médio porte;44905222;;;sim;1
+164;216;CME;Robô antibombas de grande porte;44905222;;;sim;1
+165;217;CME;Escudo balístico;44905224;;;sim;1
+166;218;CME;Protetores auriculares eletrônico;44905224;;;sim;1
+167;219;CME;Fibroscópio;44905222;;;não;5
+168;220;CME;Braço Telescópio EOD;44905222;;;não;1
+169;221;CME;Caixa de contenção EOD de grande porte;44905222;;;;
+170;222;CME;Bote pneumático;44905220;;;;
+171;223;CME;Equipamento de visão noturna do tipo binocular geração iii;44905222;;;;
+172;224;CME;Equipamento de visão noturna do tipo binocular geração iii;44905222;;;;
+173;225;CME;Equipamento de visão noturna do tipo mira (clip-on);44905222;;;;
+174;226;CME;Equipamento do tipo designador e apontador laser;44905222;;;;
+175;227;CME;Dispositivo led ir de uso portátil no corpo;44905222;;;;
+176;228;CME;Equipamento mononocular de visão termal;44905222;;;;
+177;229;CME;Quilogramas de lastros 2kg;33903013;;;;
+178;230;CME;Manômetros de teste em superfície;44905204;;;;
+179;231;CME;Conjuntos de reguladores compostos por primeiro e segundo estágios;44905204;;;;
+180;232;CME;Bússolas subaquáticas de pulso.;44905204;;;;
+181;233;CME;Câmeras subaquáticas;44905258;;;;
+182;234;CME;Compressores com pressão máxima de trabalho de 414 bar;44905258;;;;
+183;235;CME;Prancheta de pulso para mergulhador;44905258;;;;
+184;236;CME;Coletes com placas balísticas nível iii- masculino;44905224;;;;
+185;237;CME;Tripé especial com composição para tiro de precisão;44905222;;;;
+186;238;CME;Cabeça articula;44905222;;;;
+187;239;CME;Apoio para fuzil com encaixe tipo morsa;44905222;;;;
+188;240;CME;Luneta de espotagem com aumento de até 60x;44905222;;;;
+189;241;CME;Luneta para fuzil;44905222;;;;
+190;242;CME;Cães de trabalho;44905246;;;;
+191;243;CME;Dispositivo de uso individual de visão noturna;44905222;;;;
+192;244;CME;Kit/mochila arrombamento;44905222;;;;
+193;245;CME;Perneiras;44905222;;;;
+194;246;CME;Cavalos;44905246;;;;
+195;247;DPMT;Compressor de ar 20 pés monofásico pressure alta pressão 175;44905238;;;;
+196;248;DPMT;Lavadora industrial monofásica 3  cv bivolt - zm 30/40i;44905238;;;;
+197;249;CME;Tosquiadeira com 3 lâminas;44905240;;;;
+198;250;DPMT;Vulcanizadora para pneu de Caminhão com braço articulado;44905238;;;;
+199;251;DPMT;Destalonador e descolador de pneus de caminhão;44905238;;;;
+200;252;DPMT;Assentador de talão, canhão de ara para montar pneu sem camara;44905238;;;;
+201;253;DPMT;Espátula de pneu sem câmara;44905238;;;;
+202;254;CME;Semi-reboque de grande porte de 18 a 20 equinos;44905248;;;;
+203;255;DPMT;Tenda sanfonada 3 x 3 metros;44905222;;;;
+204;256;DPMT;Tenda sanfonada 6 x 3 metros;44905222;;;;
+205;257;DPMT;Carrinho de mão 150 litros de poliétileno;44905248;;;;
+206;258;DPMT;Lixeira;33903022;;;;
+207;259;CME;Talão Eletrônico (Urbano e Rodoviário);44905222;;;;
+222;274;DPPHC;Alvo Metálico Placa AR 500. Espessura: 6mm,10mm ou 12mm. Dimensões: 230 mm de largura e 480 de altura.;33903045;;;;
+223;275;DPPHC;Alvos de papel para tiro. Tipo Fogo circular. Dimensões 11 x 55 x 55 cm.;33903045;;;;
+224;276;DPPHC;Alvos de papel para tiro. Tipo fotográficos 60 x 90 cm. Agressor armado com Espingarda Calibre 12.;33903045;;;;
+225;277;DPPHC;Alvos de papel para tiro. Tipo fotográficos 60 x 90 cm. Agressor armado de frente.;33903045;;;;
+226;278;DPPHC;Alvos de papel para tiro. Tipo fotográficos 60 x 90 cm. Agressor armado e de costas.;33903045;;;;
+227;279;DPPHC;Alvos de papel para tiro. Tipo fotográficos 60 x 90 cm. Agressor armado em cima da moto.;33903045;;;;
+228;280;DPPHC;Alvos de papel para tiro. Tipo PL PF com arma  Dimensões 43 x 63 cm.;33903045;;;;
+229;281;DPPHC;Alvos de papel para tiro. Tipo Quatro cores. Dimensões 3 x 46 x 64 cm.;33903045;;;;
+230;282;DPPHC;Alvos de papel para tiro. Tipo Silhueta Colt. Dimensões 4 x 55 x 80 cm.;33903045;;;;
+231;283;DPPHC;Alvos de papel para tiro. Tipo super realista linha real Shoot R11 Alvo com estampa realista.;33903045;;;;
+232;284;DPPHC;Silhueta humana com perfil Raio-X para visualização de Órgãos Internos Dimensões: 60 x 90 cm;33903045;;;;
+233;285;DPPHC;Abafador eletrônico Earmuff dobrável NRR 22 db. / Proteção auditiva: 22 dB/Com  amplificação antirruído. Volume: Total controle através de um único botão. Microfones: Ultrassensíveis e integrados Sensibilidade: Desligamento automático dos microfones acima;44905224;;;;
+234;286;DPPHC;Aparelho para avalição de gordura corporal – bioimpedância;44905210;;;;
+235;287;DPPHC;Apito Eletrônico - Feito em ABS de alto impacto. Potência sonora de 125 dB. Alimentado por bateria. 03 (três) opções de tons de apito.;44905224;;;;
+236;288;DPMT;Equipamento calibrador de pneumáticos, eletrônico, 220v, com mangueiras.;44905238;;;;
+237;289;DPMT;Equipamento com compressor de ar 20 pés, 200L, trifásico, bivolt, de alta pressão industrial.;44905238;;;;
+238;290;DPPHC;Fuzil tipo air soft similar às de dotação PMDF.;44905214;;;;
+239;291;DPMT;"Macacos hidráulicos tipo Jacaré com capacidade de elevar até 2 toneladas; roda de poliuretano; cabo reforçado; pedal de acionamento rápido; rodízio em ferro revestida de poliuretano de alta resistência.";44905238;;;;
+240;292;DPPHC;Pistolas tipo air soft similar às de dotação PMDF.;44905214;;;;
+241;293;DPPHC;Sirene industrial longo alcance (mínimo 400m).;44905222;;;;
+301;353;DPMT;Seguro Obrigatório Veícular;33903969;;;;
+311;363;DPGC;Serviços Médico-Hospitalares e Laboratoriais;33903950;;;;
+312;364;DPGC;Limpesa e Conservação das Unidades de Saúde;33903978;;;;
+313;365;DPGC;Material Farmacológico;33903009;;;;
+314;366;DPGC;Aparelhos, Equipamentos e Utensílios Médicos, Laboratiriais e Hospitalares;44905208;;;;
+315;367;DAO;Manutenção e Conservação de Máquinas e Equipamentos Odontológicos;33903917;;;;
+316;368;DAO;Serviços Técnicos Profissionais;33903905;;;;
+317;369;DPTS;Lubrificantes;33903001;;;;
+70;132;DPGC;Filme Radiográfico para Unidades de Saúde - Medicina;33909230;;5;sim;1
+73;88;DPGC;Material de Consumo Hospitalar Cirúrgico - Medicina;33903036;;5;sim;1
+118;170;CCS;Aquisição de material de marketing institucional para distribuição gratuíta;33903963;;5;sim;1
+66;118;DPGC;Empresa de auditoria;33903950;;35;sim;1
+71;109;DPGC;Serviço Continuados de Apoio Técnico - Especializados - Enfermeiros, psicologos, etc;33903950;;35;sim;1
+116;168;CCS;Aquisição de Material Gráfico;33903963;;52;sim;1
+117;169;CCS;Aquisição de Material Gráfico para o CPP;33903963;;52;sim;1
+80;85;DAO;Equipamentos de Proteção Individual em Odontologia;33903028;;93;não;1
+95;150;DPGC;Aquisição de Equipamento de Proteção, Segurança e Socorro - CMED;44905224;;93;sim;1
+124;176;CI;Equipamentos para inspeções técnicas de contra medidas (Varredura);44905283;;93;sim;1
+125;177;DITEL;Aquisição de Solução de OCR;44904000;;93;sim;1
+126;178;DITEL;Aquisição de Vídeo Monitoramento Inteligente;44904000;;93;sim;1
+127;179;DITEL;Aquisição de Solução WebInt;44904000;;93;sim;1
+128;180;CME;Munição Química;33903005;;93;sim;1
+211;263;DCC;Microfone duplo sem fio e 2cx de som ativa;33903042;;93;;
+218;270;DPPHC;Serviço de Fornecimento de acervo Histórico;33903983;;93;;
+219;271;DPPHC;Prestação de Serviço de Pesquisa em Nuvem;33904018;;93;;
+220;272;DPPHC;Registro de Certificados e Diplomas;33904710;;93;;
+269;321;DITEL;Servidores/Storage/Virtualização;44905268;;93;;
+270;322;DITEL;Solução de segurança computacional para a infraestrutura de redes e sistemas da PMDF - antigo(Antivirus/Anti-Spam/Ips);44905237;;93;;
+271;323;DITEL;Aquisição de equipamentos de informática para as Unidades da Corporação;44905245;;93;;
+275;327;DITEL;Implantação De Solução de Atendimento e Despacho Integrado aos Recursos Tecnológicos da Pmdf;44904708;;93;;
+276;328;DITEL;Aquisição e Manutenção do Sistema de Backup em Disco com Duplicação e Disaster Recovery (DR);44904708;;93;;
+277;329;DITEL;Aquisição da Central Telefônica - COPOM;44905278;;93;;
+278;330;DITEL;Video Wall para o COPOM e GCG;44904708;;93;;
+82;153;DPGC;Aquisição de Ferramentas. CPQV;33903042;;94;sim;1
+63;117;DPGC;Imagens e Análises Clínicas;33903950;;122;sim;1
+111;121;DPGC;Serviços Continuados de Limpeza de Áreas Hospitalares e Assemelhadas;33903978;;140;sim;1
+280;332;DPMT;Explosivos e Munições;33903005;;146;;
+281;333;DPMT;Gêneros de Alimentação;33903007;;146;;
+282;334;DPMT;Material Educativo e Esportivo;33903014;;146;;
+283;335;DPMT;Material de Expediente;33903016;;146;;
+284;336;DPMT;Material de Acondicionamento e Embalagem;33903019;;146;;
+285;337;DPMT;Material de Cama, Mesa e Banho;33903020;;146;;
+286;338;DPMT;Material de Copa e Cozinha;33903021;;146;;
+287;339;DPMT;Material de Limpeza e Produção de Higienização;33903022;;146;;
+289;341;DPMT;Material de Proteção e Segurança;33903028;;146;;
+290;342;DPMT;Sobressalentes de Armamento;33903037;;146;;
+293;345;DPMT;Material de Sinalização Visual e Afins;33903044;;146;;
+294;346;DPMT;Premiações Desportivas;33903104;;146;;
+295;347;DPMT;Manutenção, conservação de Equipamentos e contratos de suporte logístico;33903618;;146;;
+297;349;DPMT;Manutenção e Conservação de Veículos;33903919;;146;;
+298;350;DPMT;Fornecimento de Alimentação;33903941;;146;;
+303;355;DPMT;Serviços de Abastecimento de Frota de Veículos;33903991;;146;;
+304;356;DPMT;Aparelhos e Utensílios Domésticos;44905212;;146;;
+305;357;DPMT;Máquinas, Utensílios e Equipamentos Diversos;44905234;;146;;
+306;358;DPMT;Máquinas, Instalações e Utensílios de Escritório;44905236;;146;;
+307;359;DPMT;Veículos Diversos;44905248;;146;;
+308;360;DPMT;Mobiliário em Geral;44905242;;146;;
+309;361;DPMT;Peças Não Incorporáveis a Imóveis;44905251;;146;;
+310;362;DPMT;Veículos de Tração Mecânica;44905252;;146;;
+77;76;DPGC;Medicamentos indispensáveis para a manutenção e funcionamento do CMED;33903009;;156;sim;1
+78;163;DPGC;Medicamentos Antineoplásicos, Adjuvantes e Imunossupressores a serem utilizados no CMED;33903009;;156;sim;1
+81;165;DAO;Materiais Odontológicos;33903010;;156;sim;1
+104;154;DAO;Materiais e Utensílios de Saúde Complementar ao Serviço Odontológico;33903036;;156;sim;1
+112;167;DAO;Materiais Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal - Odontológicos;33903014;;156;sim;1
+100;135;DAO;Reforma e Ampliação do COPMDF;44905100;;169;sim;1
+57;111;DPGC;Hospital Geral;33903950;;193;sim;1
+58;115;DPGC;Hemodiálise, Quimioterapia e Oncologia;33903950;;193;sim;1
+59;116;DPGC;Saúde Mental;33903950;;193;sim;1
+60;110;DPGC;Psicoterapia;33903950;;193;sim;1
+61;113;DPGC;Psiquiatria para adultos;33903950;;193;não;5
+62;114;DPGC;Assistência Clínica e Cirúrgica em Geral;33903950;;193;não;5
+65;112;DPGC;Home Care;33903950;;193;sim;1
+245;297;DIPRO;Continuidade das obras de Construção do Centro Odontológico;44905101;;210;;
+246;298;DIPRO;Continuidade das obras de Construção do 14º BPM;44905101;;210;;
+247;299;DIPRO;Construção CPV;44905101;;210;;
+248;300;DIPRO;Construção do 3º BPM;44905101;;210;;
+249;301;DIPRO;Construção do 2º BPM;44905101;;210;;
+250;302;DIPRO;Construção do Centro de Proteção e Qualidade de Vida;44905101;;210;;
+251;303;DIPRO;Construção do 15º BPM;44905101;;210;;
+252;304;DIPRO;Construção do 4º BPM;44905101;;210;;
+253;305;DIPRO;Construção do 16º BPM;44905101;;210;;
+254;306;DIPRO;Construção do 28º BPM;44905101;;210;;
+255;307;DIPRO;Construção do Galpões Multiuso;44905101;;210;;
+256;308;DIPRO;Construção do 8º BPM;44905101;;210;;
+242;294;DIPRO;Manutenção Predial;33903704;;211;;
+279;331;DPMT;Gás Engarrafado;33903004;;211;;
+288;340;DPMT;Material Elétrico e Eletrônico;33903026;;211;;
+292;344;DPMT;Ferramentas;33903042;;211;;
+299;351;DPMT;Serviços de Energia Elétrica;33903943;;211;;
+300;352;DPMT;Serviços de Água e Esgoto;33903944;;211;;
+302;354;DPMT;Serviços de Limpeza e Conservação;33903978;;211;;
+257;309;DITEL;CONTRATO - Empresa para fornecimento de material de consumo para manutenção preventiva de rede de dados (Lote 2 - 3Corp - Cont. 03/2018);33904011;;243;;
+260;312;DITEL;CONTRATO - Fornecimento de equipamentos e peças para manutenção preventiva de rede de dados (Lote 3 e 5 - T&S - Cont. 05/2018);33904011;;243;;
+120;172;CCS;Contratação de Empresa para Organização da Corrida Tiradentes;33903923;;254;sim;1
+11;60;DPPP;Auxílio Creche de Pessoal Civil;;33900855;256;sim;1
+12;66;DPPP;Auxílio Transporte de Pessoal Civil;;33904901;256;sim;1
+13;65;DPPP;Auxílio Alimentação de Pessoal Civil;;33904602;256;sim;1
+14;61;DPPP;Diária no País;;33901514;256;sim;1
+46;61;DPPP;Diária no País;33901514;;256;sim;1
+47;62;DPPP;Diárias no Exterior;33901516;;256;sim;1
+48;63;DPPP;Auxílio Fardamento de Pessoal Militar;33901901;;256;sim;1
+49;67;DPPP;Indeização Oriunda de Débitos Periódicos Vinculada à Sentenças Judiciais de Pensionistas;33905901;;256;sim;1
+50;73;DPPP;Ajuda de Custo de Pessoal Militar;33909318;;256;sim;1
+51;74;DPPP;Indenização de Transporte de Pessoal Militar;33909319;;256;sim;1
+52;75;DPPP;Indenização de Moradia de Pessoal Militar;33909320;;256;sim;1
+53;57;DPPP;Auxílio Funeral de Pessoal Militar Ativo;33900802;;256;sim;1
+54;58;DPPP;Auxílio Natalidade de Pessoal Militar Ativo;33900806;;256;sim;1
+55;59;DPPP;Auxílio Creche de Pessoal Militar;33900810;;256;sim;1
+56;64;DPPP;Auxílio Alimentação de Pessoal Militar;33904602;;256;sim;1
+1;14;DPPP;Vencimentos;;31901101;261;sim;1
+2;15;DPPP;Adicional de Tempo de Serviço;;31901104;261;sim;1
+3;26;DPPP;Abono de Permanência;;31901195;261;sim;1
+4;19;DPPP;Gratificação de Habilitação;;31901118;261;sim;1
+5;18;DPPP;Complementação de Vencimentos e Salários;;31901114;261;sim;1
+6;56;DPPP;Contribuição Patronal de Pessoal Civil Estatutário;;31911308;261;sim;1
+7;20;DPPP;Gratificação Natalícia Pessoal CiviL Estatutário;;31901121;261;sim;1
+8;23;DPPP;Abono de Férias Constitucional;;31901132;261;sim;1
+9;25;DPPP;Repreentação e Vencimentos de Pessoal Civil Comissionado;;31901167;261;sim;1
+10;21;DPPP;Gratificação Pessoal Civil Celetistas;;31901122;261;sim;1
+15;35;DPPP;Gratificação Militar de Segurança Institucional;;31901216;261;sim;1
+16;31;DPPP;Gratificação Natalícia de Pessoal Militar Ativo;;31901208;261;sim;1
+17;36;DPPP;Abono de Férias de Gratificação Militar de Segurança Institucional;;31901218;261;sim;1
+18;2;DPPP;Gratificação Natalícia Incorporada por Pessoal Inativo;;31900112;261;sim;1
+19;9;DPPP;Gratificação de Representação de Pessoal Mlitar Inativo;;31900163;261;sim;1
+20;10;DPPP;Gratificação de Representação Militar para Incorporada às Pensões;;31900301;261;sim;1
+21;13;DPPP;Gratificação Natalícia Incorporada às Pensões;;31900305;261;sim;1
+22;41;DPPP;Instituto Nacional de Seguro Social Patronal a Recolher;;31901302;261;sim;1
+23;27;DPPP;Soldo;31901201;;261;sim;1
+24;28;DPPP;Adicional Militar;31901204;;261;sim;1
+25;29;DPPP;Adicional de Habilitação;31901206;;261;sim;1
+26;30;DPPP;Gratificação de Representação;31901208;;261;sim;1
+27;32;DPPP;Gratificação de Função de Natureza Especial;31901209;;261;sim;1
+28;34;DPPP;Vantagem Pecuniária Especial;31901211;;261;sim;1
+29;38;DPPP;Gratificação Natalícia;31901243;;261;sim;1
+30;39;DPPP;Abono de Férias;31901245;;261;sim;1
+31;40;DPPP;Complementação Salarial de Pessoal Militar;31901287;;261;sim;1
+32;42;DPPP;Sentaneça Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Ativo Civil;31909114;;261;sim;1
+33;55;DPPP;Indenização de Licenças Especiais;31909415;;261;sim;1
+34;33;DPPP;Gratificação de Serviço Voluntário;31901210;;261;sim;1
+35;37;DPPP;Férias Vencidas Proporcionais;31901242;;261;sim;1
+36;1;DPPP;Adicional por Tempo de Serviço de Pessoal Civil;31900109;;261;sim;1
+37;3;DPPP;Complementação de Aposentadoria de Pessoal Militar;31900115;;261;sim;1
+38;4;DPPP;Vantagem Pecuniária Especial de Pessoal Militar Inativo;31900117;;261;sim;1
+39;5;DPPP;Proventos de Pessoal Militar Inativo;31900121;;261;sim;1
+40;6;DPPP;Vantagens Incorporadas de Pessoal Militar Inativo;31900122;;261;sim;1
+41;7;DPPP;Auxílio Invalidez de Pessoal Militar Inativo;31900123;;261;sim;1
+42;8;DPPP;Décimo Terceiro Salário de Pessoal Militar Inativo;31900126;;261;sim;1
+43;43;DPPP;Sentença Judicial não Transitada em Julgado de Caráter Continuado de Pessoal Inativo;31909115;;261;sim;1
+44;11;DPPP;Pensões Militares;31900302;;261;sim;1
+45;12;DPPP;Gratificação Natalícia de Pensionistas Militares;31900304;;261;sim;1
+213;265;DPPHC;Curso de Capacitação;33903948;;262;;
+214;266;DPPHC;Congressos, Seminários e Palestras.;33903948;;262;;
+216;268;DPPHC;Prestação de Serviços Contínuos de Docência;33903965;;262;;
+217;269;DPPHC;Prestação de Serviços de Apoio ao Ensino;33903965;;262;;
+221;273;DPPHC;Contração direta de professores - CAO e CAE;33903606;;262;;
+87;166;DAO;Serviço de Assinatura de Software de Base para Controle de Dados e Prontuários Odontológicos;33903911;;268;sim;1
+267;319;DITEL;Renovação de licenças Microsoft;33903994;;268;;
+272;324;DITEL;Aqusição de Softwares para as Unidades da Corporação;44904005;;268;;
+274;326;DITEL;Aquisição de solução(ões) para realização de Perícia Digital.;44904708;;268;;
+291;343;DPMT;Peças e Assessórios para Manutenção de Veículos;33903039;;293;;
+64;120;DPGC;Manutenção de Equipamentos da Medicina;33903950;;307;sim;1
+68;127;DPGC;Serviço de recolhimento de resíduos sólidos de saúde - Medicina;33903978;;307;sim;1
+69;119;DPGC;Serviço de Reposição de Peças da Medicina;33903950;;307;sim;1
+72;125;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos da Medicina;33903978;;307;não;5
+74;97;DPGC;Serviço de adaptação, manutenção corretiva inicial de sistema de vácuo clínico e ar comprimido medicinal - CMED;33903917;;307;sim;5
+75;108;DPGC;Serviço de medição da incidência de radiação emitida pelos aparelhos de RX - CMED;33903950;;307;sim;1
+83;164;DPGC;Serviço de Lavanderia para insumos utilizados em procedimentos Odontológicos;33903905;;307;sim;1
+84;91;DPGC;Serviços Continuados de Apoio Técnico - Auxiliares e Técnicos em Saúde Bucal - CO;33903905;;307;sim;1
+85;101;DPGC;Serviço de Fornecimento de Peças para Equipamentos de Radiologia odontológica;33903917;;307;sim;1
+86;105;DPGC;Serviço de Manutenção de Equipamentos de Radiologia Odontológica;33903917;;307;sim;1
+89;102;DPGC;Serviço de Manutenção de Instalações, Acessórios e Mobiliários das Unidades Odontológicas Móveis - UNAMPRO's;33903917;;307;não;1
+90;123;DPGC;Serviço de Radiometria e Medição da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos.;33903905;;307;sim;1
+91;124;DPGC;Serviço de Dosimetria da Incidência de Radiação Emitida pelos Aparelhos de RX Odontológicos;33903905;;307;sim;1
+101;161;DPGC;Serviço de Manutenção de equipamentos Odontológicos,;33903917;;307;sim;1
+102;162;DPGC;Serviço de Reposição de peças de Equipamentos Odontológicos;33903917;;307;sim;1
+103;130;DAO;Serviço de Adesivação das Unidades de Serviço Odontológico;33903999;;307;sim;1
+105;155;DPGC;Serviço de  Recolhimento de Resíduos de Saúde das Unidades Odontológicas de Atendimento;33903905;;307;sim;1
+113;92;DAO;Aluguel de móvel para uso de Unidade de Saúde;33903910;;307;sim;1
+92;145;DPGC;Equipamentos Médicos hospitalares - CMED;44905208;;313;não;1
+93;144;DPGC;Equipamentos de Diagnósticos - ECG - CMED.;44905208;;313;sim;1
+94;143;DPGC;Equipamentos de Diagnósticos - RX +PACS - CMED.;44905208;;313;sim;1
+96;142;DPGC;Equipamentos e Mobiliário Técnico Clínico para o - CMED.;44905208;;313;sim;1
+97;147;DPGC;Mobiliário Técnico Clínico-Odontológico - Modular;44905208;;313;sim;1
+98;148;DPGC;Equipamentos Odontológicos;44905208;;313;sim;1
+99;149;DPGC;Equipamentos para Central de Material Esterilizado dos Serviços Odontológicos;44905208;;313;sim;1
+106;156;DPGC;Mobiliário Técnico Clínico-Odontológico Sob Medida;44905208;;313;sim;1
+107;157;DPGC;Equipamentos de Saúde Complementar ao Serviço Odontológico;44905208;;313;sim;1
+108;158;DPGC;Equipamentos para Documentação Ortodôntica e Fotografia Odontológica;44905208;;313;sim;1
+109;159;DPGC;Equipamentos Psicopedagógicos para Odontopediatria e Educação em Saúde Bucal;44905208;;313;sim;1
+110;160;DPGC;Equipamentos de Radiologia Odontológica;44905208;;313;sim;1
+261;313;DITEL;CONTRATO - Outsourcing de impressoras - (Panacopy - Cont. 28/2019);33904016;;313;;
+263;315;DITEL;CONTRATO - Telefonia - contratação de tronco para telefonia (Claro - Contrato 05/2020);33903958;;313;;
+115;151;DPGC;OSS - Organização Social de Saúde;33504302;;356;sim;1
+215;267;DPPHC;Prestação de Serviços Contínuos de Docência CMT;33903965;;356;;
+273;325;DITEL;Solução de vídeo monitoramento inteligente;44905222;;380;;
+296;348;DPMT;Locação de Imóveis;33903910;;393;;
+67;134;DPGC;Ressarcimento;33909308;;402;sim;1
+76;87;DPGC;Material para uso laboratorial;33903035;;402;sim;1
+88;89;DPGC;Assinatura de periódicos e Anuídades Específicas para Área de Saúde;33903901;;402;sim;1
+114;133;DPGC;Despesas de Exercícios Anteriores;33909239;;402;sim;1
+119;171;CCS;Solução de Clipping;33903949;;402;sim;1
+121;173;CCS;Estrutura de Eventos;33903914;;402;sim;1
+208;260;DCC;Material Químico para Perícia;33903011;;402;;
+209;261;DCC;Material Laboratorial para Perícia;33903035;;402;;
+210;262;DCC;Feramentas para Perícia;33903028;;402;;
+212;264;DPPHC;Material Bibliográfico não Imobilizável;33903046;;402;;
+123;175;CI;Verba Operacional SIPOM;33909501;;429;sim;1
+258;310;DITEL;CONTRATO -  Empresa Especializada para manutenção preventiva/corretiva da rede da PMDF. (Lote 1 - T&S - Cont. 38/2019);33904011;;430;;
+259;311;DITEL;CONTRATO - Empresa especializada para serviços de monitoramento dos sitemas de TI e atendimento ao usuário. (Lote 4 - Amazon - Cont. 04/2018);33904015;;430;;
+266;318;DITEL;Manutenção da rede TETRA (AIRBUS);33904011;;430;;
+268;320;DITEL;Digitalização dos boletins administrativos arquivo geral;33904015;;430;;
+243;295;DIPRO;Pagamento de Taxas RRT - CRAU/DF;33904710;;449;;
+244;296;DIPRO;Pagamento de Taxas CREA/DF;33904710;;449;;
+264;316;DITEL;Métrica e Mensuração de Software em regime de Fábrica de Métrica (FM) - (Eficácia Org. LTDA);33904015;;449;;
+265;317;DITEL;Fábrica de software - contratação de empresa especializada em fábrica de software - (Mirante TEC.);33904008;;449;;
+262;314;DITEL;CONTRATO - Link de internet - contratação de link de internet para a PMDF (Algar - Cont. 02/2020);33903958;;450;;
+79;90;DPGC;Serviço de Gestão hospitalar/ Engenharia Clínica;33903905;;502;não;5
