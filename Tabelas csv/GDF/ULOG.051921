@@ -1,0 +1,5 @@
+161230.PM03600231863_!?proc.1260: 051921: TUXEDO Version 6.5 32-bit Windows.
+161230.PM03600231863_!?proc.1260: NLS:4: Cannot open message catalog LIBWSC_CAT, set 1, num 1037; check TUXDIR=., LANG=C
+161230.PM03600231863_!?proc.1260: NLS:4: Cannot open message catalog LIBWSC_CAT, set 1, num 1001; check TUXDIR=., LANG=C
+161230.PM03600231863_!?proc.1260: NLS:4: Cannot open message catalog LIBWSC_CAT, set 1, num 1000; check TUXDIR=., LANG=C
+161230.PM03600231863_!?proc.1260: NLS:4: Cannot open message catalog LIBWSC_CAT, set 1, num 1025; check TUXDIR=., LANG=C
